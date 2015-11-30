@@ -1,0 +1,118 @@
+.portfolio-thumbnail {
+	background-color: #428583;
+  border-width: 2px;
+  border-style: solid;
+  border-right-style: solid;
+	border-color: #fff; 
+	overflow: hidden;   
+}	
+
+
+
+.jumbotron h1 {
+  font-size: 50px;
+}
+
+.jumbotron p {
+  font-size: 30px;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #BDBDBD;
+
+}
+.navbar-default .navbar-brand {
+  color: black;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 30px;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #BDBDBD;
+}
+
+.navbar-default .navbar-nav > li > a  {
+  color: black;
+  font-family: 'Philosopher', sans-serif;
+  font-size: 20px;
+}
+
+.navbar-default .navbar-nav:hover > li > a:hover  {
+  color: #BDBDBD;
+
+}
+
+
+.navbar-collapse {
+  background-color: #428583;
+  
+}
+
+body {
+	background: #fff
+  font-family: 'Philosopher', sans-serif;
+
+}
+
+.jumbotron {
+  font-family: 'Philosopher', sans-serif;
+  color: black;
+	background: #96BBBA;
+	text-align: center;
+  padding-bottom: .1%;
+  margin-top: 6px;
+
+ }
+
+ 
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
+
+}
+
+.col-md-4 {
+    float: center;
+/**position: relative; **/
+    margin: 0 auto;
+    overflow: hidden;
+    border-color: #BDBDBD; 
+    border-width: 2px;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.navbar-right {
+  padding-right: 10px;
+}
+
+.portfolio-thumbnail img {
+  -webkit-transition: 0.25s ease-in all;
+  transition: 0.25s ease-in all;
+}
+
+.col-md-4:hover .portfolio-thumbnail img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.10);s
+}
+
+
+.col-md-6 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+}
+
+.col-md-5 {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+ 
+}
+
+.navbar-header {
+  background-color: #428583;
+
