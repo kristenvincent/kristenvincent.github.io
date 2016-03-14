@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Tracking Hurricane Katrina</title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="lib/leaflet/leaflet.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		<!--put your initial page content here-->
+		<div class = "header">
+			<h1>Hurricane Katrina: Tracking the Storm</h1>
+		</div>
+
+		<div id = "map"></div>
+		<div id = "panel">
+			<div id = "panelSequence"></div>
+			<div id = "panelText"></div>
+			<p id = "mainText">On August 29th, 2005, Hurricane Katrina made landfall on the Gulf Coast of the United States.  The Category 3 storm was devastating.  Cities were flooded, residents were displaced from their homes, and almost 2,000 people lost their lives. <br> <br>Large amounts of rain contributed to the flooding.  The impact of the storm (in terms of rainfall) and locations of the hardest hit areas are depicted on this map.  Rainfall totals in three hour increments for August 29th, recorded at local weather stations, are shown.</p> 
+			<p id = "sources">Data was obtained from <a href="http://www.ncdc.noaa.gov/IPS/hpd/hpd.html">NOAA</a> and <a href="http://www.history.com/topics/hurricane-katrina">HISTORY.</a></p>
+			<p id = "notes">*The Slidell, Louisiana and Aberdeen, Mississippi rainfall data time of occurance was noted in the dataset as suspect.  </p>
+
+
+		</div>	
+
+		<!--you can also use this space for internal scripts or stylesheets;
+		place these within <script> or <style> tags-->
+
+		<!--put your external script links here-->
+		<script type="text/javascript" src="lib/jquery-1.12.0.js"></script>
+		<script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+		<!--script type="text/javascript" src="js/tutorials.js"></script-->
+		<!--script type="text/javascript" src="js/geojson.js"></script-->
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

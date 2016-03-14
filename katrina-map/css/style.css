@@ -1,0 +1,146 @@
+/*The Map CSS*/
+
+/*style the body*/
+body {
+	background-color: #B1D3A7;
+}
+
+/*style the map container*/
+#map {
+	height: 525px;
+	width: 50%;
+	display: inline-block;
+	margin-top: 5px;
+	border: solid gray 2px;
+	margin-left: 60px;
+	margin-right: 35px
+}
+
+/*style the sequence control container*/
+.sequence-control-container {
+	width: 300px;
+	height: 25px;
+	background-color: rgba(255,255,255,0.65);
+	padding: 6px;
+	line-height: 45px;
+	text-align: center;
+	border: solid gray 1px;
+}
+
+/*style the legend control container*/
+.legend-control-container {
+	width: 150px;
+	height: 130px;
+	background-color: rgba(255,255,255,0.65);
+	padding: 10px;
+	line-height: 15px;
+	text-align: center;
+	border: solid gray 1px;
+}
+
+/*style the legend control outer container*/
+.legend-control-container.leaflet-control {
+	margin-right: 6px;
+	margin-bottom: 6px;
+	padding-right: 10px;
+	width: 175px;
+	height: 100px;
+}
+
+/*style the sequence outer container*/
+.sequence-control-container.leaflet-control {
+	margin-right: 6px;
+	margin-bottom: 6px;
+}
+
+/*style the temporal legend*/
+#temporal-legend {
+	height: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+}
+
+/*style the attribute legend*/
+#attribute-legend {
+	height: 80px;
+	width: 160px;
+	margin: 0px;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+}
+
+/*style overlay button text*/
+.overlayText {
+	font-family: 'Roboto Slab', serif;
+}
+
+/*style popups*/
+.popupStyle {
+	font-family: 'Roboto Slab', serif;
+}
+
+/*working wiht popup content*/
+.leaflet-popup-content p {
+	margin: 0.2em 0;
+}
+
+/*style panel*/
+#panel {
+	width: 35%;
+	padding: 10px;
+	margin: 5px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	font-family: 'Roboto Slab', serif;
+	line-height: 25.5px;
+	background-color: #BFBFBF;
+	border: 2px solid;
+	border-color: gray;
+}
+
+/*style slider container*/
+.range-slider {
+	width: 150px;
+}
+
+/*style forward botton*/
+#forward {
+	float: right;
+}
+
+/*style reverse button*/
+#reverse {
+	float: left;
+}
+
+/*style header*/
+.header {
+	color: white;
+	background-color: black;
+	padding: 1px;	
+	margin-bottom: 10px;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+
+/*style sources text*/
+#sources {
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+}
+
+/*style notes text*/
+#notes {
+	font-family: 'Roboto Slab', serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+/*style panel text*/
+#panelText {
+	line-height: 12px;
+}
