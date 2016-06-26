@@ -1,11 +1,11 @@
 .portfolio-thumbnail {
-	background-color: #428583;
+	background-color: #e9e9e9;
   border-width: 2px;
   border-style: solid;
   border-right-style: solid;
-	border-color: #fff; 
-	overflow: hidden;   
-}	
+	/*border-color: #e9e9e9;*/
+	overflow: hidden;
+}
 
 
 
@@ -23,7 +23,7 @@
 }
 .navbar-default .navbar-brand {
   color: black;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 30px;
 }
 
@@ -33,7 +33,7 @@
 
 .navbar-default .navbar-nav > li > a  {
   color: black;
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 20px;
 }
 
@@ -44,28 +44,28 @@
 
 
 .navbar-collapse {
-  background-color: #428583;
-  
+  background-color: #FFFF9A;
+
 }
 
 body {
-	background: #fff
-  font-family: 'Philosopher', sans-serif;
+	background: #fff;
+  font-family: 'Ubuntu', sans-serif;
 
 }
 
 .jumbotron {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: black;
-	background: #96BBBA;
+	background: #99d3df;
 	text-align: center;
-   padding-top: 80px;
+  padding-top: 80px;
   padding-bottom: 40px;
   margin-top: 12px;
 
  }
 
- 
+
 h4 {
   font-size: 20px;
 }
@@ -80,9 +80,9 @@ h5 {
 /**position: relative; **/
     margin: 0 auto;
     overflow: hidden;
-    border-color: #BDBDBD; 
+    border-color: #BDBDBD;
     border-width: 2px;
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar-right {
@@ -104,16 +104,16 @@ h5 {
 
 
 .col-md-6 {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
 }
 
 .col-md-5 {
-  font-family: 'Philosopher', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 16px;
- 
+
 }
 
 .navbar-header {
-  background-color: #428583;
-
+  background-color: #FFFF9A;
+}
