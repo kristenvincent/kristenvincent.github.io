@@ -62,7 +62,7 @@ body {
   padding-top: 80px;
   padding-bottom: 40px;
   margin-top: 12px;
-
+	/*background: url('/assets/square-bg.png');*/
  }
 
 
@@ -73,6 +73,17 @@ h4 {
 h5 {
   font-size: 16px;
 
+}
+
+
+/*link color*/
+a:visited {
+	color: blue;
+}
+
+/*link background color on hover*/
+a:hover {
+	background-color: #FFFF9A;
 }
 
 .col-md-4 {
