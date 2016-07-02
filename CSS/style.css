@@ -132,3 +132,13 @@ a:hover {
 #resume {
 	border: none;
 }*/
+
+.Education {
+	position: relative;
+	left: 125px;
+}
+
+.Service {
+	position: relative;
+	left: 125px;
+}
