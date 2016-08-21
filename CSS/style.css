@@ -162,3 +162,13 @@ a:hover {
 	position: relative;
 	left: 1220px;
 }
+
+#mapdetails {
+	position: relative;
+	left: 20px;
+}
+
+#mapdetails2 {
+	position: relative;
+	left: 0px;
+}
