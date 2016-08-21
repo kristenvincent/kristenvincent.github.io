@@ -148,12 +148,17 @@ a:hover {
 	left: 125px;
 }
 
+.Skills {
+	position: relative;
+	left: 125px;
+}
+
+.skillsText {
+	position: relative;
+	left: 125px;
+}
+
 .resume {
 	position: relative;
 	left: 1220px;
-}
-
-.connect {
-	position: relative;
-	left: 100px;
 }
