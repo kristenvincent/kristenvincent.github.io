@@ -8,23 +8,23 @@ function createMap() {
 		zoom: 6,
 		minZoom: 4
 	});
-	
+
 	//Here, the tile layer (base map) is set and added to the map
 	var basemap = L.tileLayer('http://b.tiles.mapbox.com/v4/nps.68926899,nps.502a840b/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibnBzIiwiYSI6IkdfeS1OY1UifQ.K8Qn5ojTw4RV1GwBlsci-Q', {
 		maxZoom: 12,
 		attribution: 'Imagery from <a href="http://www.nps.gov/npmap/tools/park-tiles">National Park Service Park Tiles</a><a href="http://www.nps.gov</a>'
 	}).addTo(map);
 
-	//getData and getOverlayData functions are called to get the data for the map 
+	//getData and getOverlayData functions are called to get the data for the map
 	getData(map);
-	getOverlayData(map);
+	// getOverlayData(map);
 };
 
 //Make circle markers
 function createPropSymbols(data, map, attributes) {
 	//geoJSON layer with leaflet is created and added to the map
 	L.geoJson(data, {
-		//pointToLayer is used to change the marker features to circle markers, 
+		//pointToLayer is used to change the marker features to circle markers,
 		//styled with geojsonMarkerOptions
 		pointToLayer: function(feature, latlng){
 			return pointToLayer(feature, latlng, attributes);
@@ -93,10 +93,10 @@ function updatePropSymbols(map, attribute) {
 
 			//build popup content string
 			var panelContent = "<p><b>Weather Station: </b><span class = 'weatherStation'>" + props.stationName + "</span></p><div>";
-			
+
 			//add formatted attribute to panel content string
 			panelContent += "<p><b>Rainfall from  " + timeStamp + ": </b>" + props[attribute] + " Inches</p>";
-			
+
 			//replace the layer popup
 			layer.bindPopup(popupContent, {
 				offset: new L.Point (0, -radius),
@@ -116,7 +116,7 @@ function updatePropSymbols(map, attribute) {
 				},
 				mouseout: function(){
 					this.closePopup();
-					
+
 				},
 				click: function(){
 					$("#panelText").html(panelContent);
@@ -125,7 +125,7 @@ function updatePropSymbols(map, attribute) {
 			return layer;
 		};
 	});
-	//call the function to update legend information 
+	//call the function to update legend information
 	updateLegend(map, attribute);
 };
 
@@ -191,7 +191,7 @@ function createSequenceControls(map, attributes){
 			//Wrap end around
 			index = index < 0 ? 7 : index;
 		};
-	
+
 		//Update slider position based on index position
 		$('.range-slider').val(index);
 
@@ -207,7 +207,7 @@ function createSequenceControls(map, attributes){
 		//Reassign values based on inidex
 		updatePropSymbols(map, attributes[index]);
 
-	});	
+	});
 };
 
 //function to create an array of time data to keep track of the order
@@ -243,7 +243,7 @@ function getData(map) {
 			createPropSymbols(response, map, attributes);
 			createSequenceControls(map, attributes);
 			createLegend(map, attributes);
-		}		
+		}
 	});
 };
 
@@ -266,18 +266,18 @@ function getOverlayData(map) {
 
 			//geoJSON layer with leaflet is created to add data to the map
 			var overlayLayer = L.geoJson(response, {
-			
 
-				//pointToLayer is used to change the marker features to circle markers, 
+
+				//pointToLayer is used to change the marker features to circle markers,
 				//styled with geojsonMarkerOptions
 				pointToLayer: function (feature, latlng) {
 
-					
+
 					return L.circleMarker (latlng, geojsonMarkerOptions);
 						}
 				});
-			
-			
+
+
 			//function to size the overlay data according to max rainfall
 			overlayLayer.eachLayer(function(layer){
 
@@ -290,14 +290,14 @@ function getOverlayData(map) {
 			//the radius is set to the data layer
 			layer.setRadius(radius);
 			});
-		
+
 			//leaflet overlay control to add the overlay data
 			var overlayRings = {
 			"<span class = 'overlayText'>Maximum Rainfall in a 3 Hour Period</span>": overlayLayer
 			};
 
 			//adding the control to the map
-			L.control.layers(null, overlayRings).addTo(map);	
+			L.control.layers(null, overlayRings).addTo(map);
 		}
 
 	});
@@ -415,5 +415,5 @@ function getCircleValues(map, attribute){
 	};
 };
 
-//when the DOM is ready, createMap is called 
+//when the DOM is ready, createMap is called
 $(document).ready(createMap);
