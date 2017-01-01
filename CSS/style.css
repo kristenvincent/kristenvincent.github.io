@@ -7,8 +7,6 @@
 	overflow: hidden;
 }
 
-
-
 .jumbotron h1 {
   font-size: 50px;
 }
@@ -165,10 +163,12 @@ a:hover {
 
 #mapdetails {
 	position: relative;
-	left: 20px;
+	left: 0px;
+	padding-left: 60px;
 }
 
 #mapdetails2 {
 	position: relative;
 	left: 0px;
+	padding-left: 60px;
 }
