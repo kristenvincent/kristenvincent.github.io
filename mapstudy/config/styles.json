@@ -1,0 +1,17 @@
+[
+	{
+		"sectionId": "header",
+		"cssAttributes": {
+			"background-color": "#C62C38"
+		},
+		
+		"content": "The Role of Cartographic Interface Complexity on Spatial Decision-Making"
+	},
+	{
+		"sectionId": "footer",
+		"cssAttributes": {
+			"background-color": "#C62C38"
+		},
+		"content": "This Project is Sponsored by the University of Wisconsin-Madison and the National Science Foundataion."
+	}
+]

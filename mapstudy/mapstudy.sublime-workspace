@@ -1,0 +1,1523 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"blur",
+				"blurCSList"
+			],
+			[
+				"togg",
+				"toggleCSList"
+			],
+			[
+				"stop",
+				"stopPropagation"
+			],
+			[
+				"palett",
+				"paletteOffset"
+			],
+			[
+				"setColor",
+				"setColorSelectListeners"
+			],
+			[
+				"recl",
+				"reclassified"
+			],
+			[
+				"recla",
+				"reclassified"
+			],
+			[
+				"index",
+				"indexOf"
+			],
+			[
+				"delete",
+				"deleteFiles"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"dis",
+				"disabled"
+			],
+			[
+				"modify",
+				"modifyWeights"
+			],
+			[
+				"condition",
+				"conditionnum"
+			],
+			[
+				"reset",
+				"resetSelect"
+			],
+			[
+				"display",
+				"displayonyes"
+			],
+			[
+				"randomized",
+				"randomizedPages"
+			],
+			[
+				"before",
+				"before-randomized"
+			],
+			[
+				"randomi",
+				"randomizedPages"
+			],
+			[
+				"border-bo",
+				"border-bottom-right-radius"
+			],
+			[
+				"disp",
+				"displayonyes"
+			],
+			[
+				"toggleIn",
+				"toggleInputType"
+			],
+			[
+				"removetec",
+				"removetechnique"
+			],
+			[
+				"addtec",
+				"addtechnique"
+			],
+			[
+				"process",
+				"processArrays"
+			],
+			[
+				"Inter",
+				"InteractionDataLayersView"
+			],
+			[
+				"interactionData",
+				"InteractionDataLayersView"
+			],
+			[
+				"InteractionD",
+				"InteractionDataLayersModel"
+			],
+			[
+				"change",
+				"changeNClasses"
+			],
+			[
+				"mod",
+				"modifyForm"
+			],
+			[
+				"isari",
+				"isarithmic"
+			],
+			[
+				"technique-n-",
+				"technique-n-classes-p"
+			],
+			[
+				"DataL",
+				"DataLayerView"
+			],
+			[
+				"BaseLayer",
+				"BaseLayerView"
+			],
+			[
+				"create",
+				"createBaseLayer"
+			],
+			[
+				"li",
+				"library"
+			],
+			[
+				"lib",
+				"libtemplate"
+			],
+			[
+				"backgr",
+				"background-size"
+			],
+			[
+				"prev",
+				"prevStep"
+			],
+			[
+				"slide",
+				"slideDown"
+			],
+			[
+				"header",
+				"header-button"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"dropdown",
+				"dropdownTemplate"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"under",
+				"underlayControlView"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"choice",
+				"choiceMax"
+			],
+			[
+				"colu",
+				"columns"
+			],
+			[
+				"random",
+				"randomOrder"
+			],
+			[
+				"choiceM",
+				"choiceMax"
+			],
+			[
+				"renderBo",
+				"renderButtons"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"appendOpti",
+				"appendOptionText"
+			],
+			[
+				"classification",
+				"classificationType"
+			],
+			[
+				"reclass",
+				"reclassify"
+			],
+			[
+				"progress",
+				"progressBar"
+			],
+			[
+				"circle",
+				"circleMarker"
+			],
+			[
+				"setLe",
+				"setLegendColor"
+			],
+			[
+				"legen",
+				"legendModel"
+			],
+			[
+				"layerNa",
+				"layerNameClass"
+			],
+			[
+				"isa",
+				"isarithm"
+			],
+			[
+				"trigg",
+				"triggerResymbolize"
+			],
+			[
+				"leafl",
+				"leafletView"
+			],
+			[
+				"resym",
+				"resymbolize"
+			],
+			[
+				"tech",
+				"techniqueType"
+			],
+			[
+				"nCla",
+				"nClassesSelect"
+			],
+			[
+				"pro",
+				"proportional"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"techniq",
+				"techniqueType"
+			],
+			[
+				"leafletData",
+				"leafletDataLayer"
+			],
+			[
+				"leaflet",
+				"leafletDataLayer"
+			],
+			[
+				"heat",
+				"heatmapConfig"
+			],
+			[
+				"heatmap",
+				"heatmapInstance"
+			],
+			[
+				"polygons",
+				"polygonsToPoints"
+			],
+			[
+				"raw",
+				"rawfeatures"
+			],
+			[
+				"tran",
+				"transform"
+			],
+			[
+				"dataLaye",
+				"dataLayerModel"
+			],
+			[
+				"dataLa",
+				"dataLayerModel"
+			],
+			[
+				"poly",
+				"polygonToPoint"
+			],
+			[
+				"stro",
+				"stroke-linejoin"
+			],
+			[
+				"stroke",
+				"stroke-linecap"
+			],
+			[
+				"line",
+				"linecap"
+			],
+			[
+				"technique",
+				"techniqueType"
+			],
+			[
+				"has",
+				"hasOwnProperty"
+			],
+			[
+				"zoom",
+				"zoomOptions"
+			],
+			[
+				"interface",
+				"interfaceMethods"
+			],
+			[
+				"double",
+				"doubleClickZoom"
+			],
+			[
+				"scroll",
+				"scrollWheelZoom"
+			],
+			[
+				"popu",
+				"popup-line-template"
+			],
+			[
+				"retr",
+				"retrieve-attributes"
+			],
+			[
+				"retrieveCont",
+				"retrieveControlView"
+			],
+			[
+				"retrieve",
+				"retrieveControlView"
+			],
+			[
+				"retrie",
+				"retrieveControlView"
+			],
+			[
+				"Retr",
+				"RetrieveControlView"
+			],
+			[
+				"retri",
+				"retrieve-attributes"
+			],
+			[
+				"fill",
+				"fillColor"
+			],
+			[
+				"resy",
+				"resymbolize"
+			],
+			[
+				"classificati",
+				"classificationType"
+			],
+			[
+				"nClass",
+				"nClassesSelect"
+			],
+			[
+				"nCl",
+				"nClassesDiv"
+			],
+			[
+				"nClas",
+				"nClassesDiv"
+			],
+			[
+				"swat",
+				"swatchTemplate"
+			],
+			[
+				"color",
+				"colorbrewer"
+			],
+			[
+				"setClass",
+				"setClassBreaks"
+			],
+			[
+				"express",
+				"expressedAttribute"
+			],
+			[
+				"set",
+				"setNClasses"
+			],
+			[
+				"classif",
+				"classificationType"
+			],
+			[
+				"class",
+				"classificationType"
+			],
+			[
+				"nC",
+				"nClasses"
+			],
+			[
+				"length",
+				"length-1"
+			],
+			[
+				"recolor",
+				"recolorView"
+			],
+			[
+				"resymboli",
+				"resymbolizeModel"
+			],
+			[
+				"resymbo",
+				"resymbolizeModel"
+			],
+			[
+				"techni",
+				"techniqueType"
+			],
+			[
+				"Reex",
+				"ReexpressSectionView"
+			],
+			[
+				"techn",
+				"techniqueType"
+			],
+			[
+				"techniqueType",
+				"techniqueTypeClass"
+			],
+			[
+				"setTechn",
+				"setTechnique"
+			],
+			[
+				"leafletDa",
+				"leafletDataLayers"
+			],
+			[
+				"dataLayer",
+				"dataLayersDone"
+			],
+			[
+				"Reexpre",
+				"ReexpressInputView"
+			],
+			[
+				"Reexpress",
+				"ReexpressSectionView"
+			],
+			[
+				"data",
+				"dataLayer"
+			],
+			[
+				"apply",
+				"applyFilter"
+			],
+			[
+				"retrieve-contro",
+				"retrieve-control-container"
+			],
+			[
+				"id",
+				"id"
+			],
+			[
+				"expressed",
+				"expressedAttributes"
+			],
+			[
+				"leafletDat",
+				"leafletDataLayers"
+			],
+			[
+				"search-",
+				"search-control-container"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 16275,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/conditions.json",
+			"settings":
+			{
+				"buffer_size": 141,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/param.php",
+			"settings":
+			{
+				"buffer_size": 411,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 11225,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 57206,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/modules/app.js",
+			"settings":
+			{
+				"buffer_size": 3965,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/modules/m-section.js",
+			"settings":
+			{
+				"buffer_size": 100939,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/map.json",
+			"settings":
+			{
+				"buffer_size": 12556,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/modules/q-section.js",
+			"settings":
+			{
+				"buffer_size": 17523,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "doc/versions.md",
+			"settings":
+			{
+				"buffer_size": 651,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "LICENSE.txt",
+			"settings":
+			{
+				"buffer_size": 13585,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/styles.json",
+			"settings":
+			{
+				"buffer_size": 338,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/questions.json",
+			"settings":
+			{
+				"buffer_size": 5970,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "doc/README.md",
+			"settings":
+			{
+				"buffer_size": 57227,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/README.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/data/tables.json",
+		"/C/Users/Carl/Downloads/README.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/setup/index.html",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/setup/setup.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/setup/setup.php",
+		"/C/Users/Carl/Downloads/jquery-1.11.3/jquery-1.11.3/MIT-LICENSE.txt",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/leaflet-heatmap.js",
+		"/C/Users/Carl/Downloads/config(2)/conditions.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/modules/q-section.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/modules/m-section.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/modules/app.js",
+		"/C/Users/Carl/Downloads/styles.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/setup/setup.ptxt",
+		"/C/Users/Carl/Downloads/config/map.json",
+		"/C/Users/Carl/Downloads/config/styles.json",
+		"/C/Users/Carl/Downloads/config/questions.json",
+		"/C/Users/Carl/Downloads/config/param.php",
+		"/C/Users/Carl/Downloads/config/finished.json",
+		"/C/Users/Carl/Downloads/config/conditions.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/questions.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/colorbrewer.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/index.html",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/README.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/map.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/styles.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/versions.md",
+		"/C/Users/Carl/Downloads/download/sticky_header.html",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/css/style.css",
+		"/C/Users/Carl/Desktop/temp/temp.html",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/php/data.php",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/php/interactions.php",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/param.php",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/API.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/.gitignore",
+		"/C/sendmail/sendmail.ini",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/php/php.ini",
+		"/C/Users/Carl/Downloads/PHPMailer-master/PHPMailer-master/composer.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/participants/p350393183_interactions.csv",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/participants/p982952260_data.csv",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/conditions.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/backbonejs/js/views.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/architecture.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/php/param.php",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/senegal.sublime-project",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/map1.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/data/us-states-pop.geojson",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/data/us-states.geojson",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/data/wi-tracts-poly.topojson",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/data/city-data.geojson",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/map3.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/map2.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/map5.json",
+		"/C/Users/Carl/Downloads/Book2.csv",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/data/wi-tracts-point.topojson",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/test.html",
+		"/C/temp/lower48.geojson",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/LICENSE.txt",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/d3-coordinated-viz/js/main.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/map4.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/ma4.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/svg-area-heatmap.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/heatmap.js",
+		"/C/temp/lower48contour.geojson",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/data/lower48.geojson",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/d3-coordinated-viz/lib/LICENSE.txt",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/config/map.bak.json",
+		"/C/Users/Carl/Documents/School/UW/Teaching/Geog575/2016_Spring/modules/Module2/debug.js",
+		"/C/Users/Carl/Documents/School/UW/Teaching/Geog575/2016_Spring/modules/Module5/complete/leaflet-lab/js/main.js",
+		"/C/Users/Carl/Downloads/jscolor-2.0.4/jscolor-example.html",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/colorbrewer.json",
+		"/C/Users/Carl/Downloads/d3-master/d3-master/lib/colorbrewer/LICENSE",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/d3.js",
+		"/C/Users/Carl/Documents/School/UW/Teaching/Geog575/2016_Spring/modules/Module6/complete/leaflet-lab/js/main.js",
+		"/C/Users/Carl/Documents/School/UW/Teaching/Geog575/2016_Spring/modules/Module3/Module3.html",
+		"/C/Users/Carl/Desktop/temp/test.svg",
+		"/C/Users/Carl/Documents/School/UW/Teaching/Geog575/2016_Spring/modules/Module2/complete/unit-1(module2)/js/main.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/cartographic-perspectives/time-series-prop-map-leaflet/time-series-prop-map/js/main.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/leaflet-lab/js/main.js",
+		"/C/Users/Carl/Documents/School/UW/Teaching/Geog575/G575_2017_Spring_Online/Module6/Module6.html",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/modules/m-section.bak.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/index.bak.html",
+		"/C/Users/Carl/Downloads/LeafletSlider-master/LeafletSlider-master/SliderControl.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/jquery-ui/jquery-ui.css",
+		"/C/Users/Carl/Downloads/jquery-ui-1.11.4.custom/jquery-ui-1.11.4.custom/jquery-ui.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/jquery-ui/jquery-ui.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/leaflet/leaflet.fusesearch.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/leaflet/leaflet.fusesearch.css",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/jquery-ui/jquery-ui.theme.css",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/cartographic-perspectives/time-series-prop-map-leaflet/time-series-prop-map/data/city-data.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/app.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/modules/api.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/example/us-states.geojson",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/css.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/extend.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/faq.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/html.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/js.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/misc.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/TOC.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/doc/usage.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/VERSIONS.md",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/CONFIG.json",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/main.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/leaflet/leaflet.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/jquery.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/project_files/mbtiles/Senegal.tm2/project.xml",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/mapboxgl/mapbox-gl.js",
+		"/C/Users/Carl/Downloads/leaflet/leaflet.js",
+		"/C/Users/Carl/Downloads/mapbox-gl-js-master/mapbox-gl-js-master/js/mapbox-gl.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/MapStudy/js/lib/plugins.js",
+		"/C/Users/Carl/Downloads/html5-boilerplate_v5.2.0/robots.txt",
+		"/C/Users/Carl/Downloads/html5-boilerplate_v5.2.0/humans.txt",
+		"/C/Users/Carl/Downloads/html5-boilerplate_v5.2.0/css/main.css",
+		"/C/Users/Carl/Downloads/html5-boilerplate_v5.2.0/doc/html.md",
+		"/C/Users/Carl/Downloads/html5-boilerplate_v5.2.0/img/.gitignore",
+		"/C/Users/Carl/Downloads/html5-boilerplate_v5.2.0/js/plugins.js",
+		"/C/Users/Carl/Downloads/html5-boilerplate_v5.2.0/js/main.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/php/query.php",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/css/style.css",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/index.html",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/js/messages.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/js/wikimap.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/TODO.txt",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/lib/leaflet/core/leaflet7/leaflet.0.7.3-src.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/js/wikimap1.js",
+		"/C/Program Files/PostgreSQL/EnterpriseDB-ApachePHP/apache/www/Senegal/js/wikimap.bak.js",
+		"/C/Users/Carl/Documents/School/UW/Teaching/Geog575/G575_2017_Spring_Online/Module0_Outline/ModuleOutline_v7.md"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"required",
+			"autoadvance",
+			"console",
+			"$('.leaflet-popup-pane').show",
+			"$('.leaflet-popup-pane').hide",
+			"$('.leaflet-popup-pane')",
+			"popup",
+			"console",
+			"i",
+			"nextset",
+			"autoadvance",
+			"next",
+			"nextset",
+			"autoadvance",
+			"_set",
+			"autoadvance",
+			"set>>",
+			"nextset",
+			"autoadvance",
+			"events",
+			"autoadvance",
+			"autoa",
+			"toggle",
+			"default",
+			"console",
+			"leaflet-popup",
+			"\"-control-container",
+			"'-control-container'",
+			"-control-container",
+			"retrieve-control-container",
+			"InteractionToggleView",
+			"leaflet-popup-pane",
+			"retrieve",
+			"InteractionToggleView",
+			"CustomControl",
+			"toggleLayer",
+			"InteractionToggleView",
+			"switch",
+			"setMapInteractions",
+			"console",
+			"interface",
+			"widget",
+			"zoom",
+			"widget",
+			"interaction",
+			".input",
+			"class=\"input",
+			"map.",
+			"map.json",
+			"questions.",
+			"questions.pages[page].sets[i].buttons",
+			"#### questions.pages[page].sets[i].buttons",
+			"console",
+			"set>>",
+			">>",
+			"timer.direction",
+			"nextset",
+			"next",
+			"TimerView",
+			"empty",
+			"_set",
+			"setQuestions",
+			"_page",
+			"header",
+			"I'm some credits",
+			"database.php",
+			"questions.",
+			"pages",
+			"optionTemplate",
+			"listTemplate",
+			"view.model.attributes.colorbrewer",
+			"select",
+			"pseudoSelect",
+			".recolor select",
+			"setColorSwatches",
+			"color-scale",
+			"color-swatch",
+			"setHeatmap",
+			"heat",
+			"heatmapInstance",
+			"heat",
+			"Map-1",
+			"color-scale",
+			"setClassBreaks",
+			"colorbrewer",
+			"colorInput",
+			"colorInput.change",
+			"recolor(",
+			"this.recolor",
+			"recolor",
+			"RecolorView",
+			"recolor = function",
+			"recolor: function",
+			"recolor",
+			"colorbrewer",
+			"colorcode",
+			"colorbrewer",
+			"n-classes",
+			"setBaseLayer",
+			"baseLayer",
+			"Fuse",
+			"jscolor",
+			"heatmapLayer",
+			"HeatmapOverlay",
+			"heatmap",
+			"baselayer",
+			"setDataLayer",
+			"setBaseLayer",
+			"setDataLayer",
+			"sourceLinks",
+			"sourceUrlExample",
+			"setDataLayer",
+			"setBaseLayer",
+			"setMap",
+			"Leaflet",
+			"ButtonModel",
+			"#q",
+			"setMapView",
+			"conditions",
+			"styles",
+			"init",
+			"config",
+			"\"config",
+			"config",
+			"console",
+			"readForm",
+			"makeFiles.php",
+			"object"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"toggle",
+			"map.pages[page].",
+			"questions.pages[page].",
+			"questions.pages[page",
+			"params.php",
+			"questions.pages[page].",
+			"listItemTemplate",
+			"button",
+			"colorScaleList",
+			"setup.php",
+			"filename",
+			"param",
+			"styles",
+			"param",
+			"styles",
+			"param",
+			"questions",
+			"map",
+			"styles",
+			"tr",
+			"1.000",
+			"stopPropagation",
+			"weight-warning",
+			"thisval",
+			"condition-weight-slider",
+			"questions.pages",
+			"option",
+			"item",
+			"set",
+			"layer",
+			"qsection",
+			"addtechnique addbutton",
+			"removetechnique removebutton",
+			"removelayer removebutton",
+			".fullpage",
+			"addbutton",
+			"removebutton",
+			"addbutton",
+			"",
+			"3",
+			"levelArr",
+			"techniques.<%= ii %>",
+			"dataLayers.<%= i %>",
+			"baseLayers.<%= i %>",
+			"1",
+			"0",
+			"cssAttributes.background-color",
+			"[3].",
+			"[2].",
+			"[0].",
+			"[1].",
+			"div",
+			"i-section",
+			"",
+			"l",
+			"layer-custom-options",
+			"layer-options",
+			"layer-source-input",
+			"layer-source-select",
+			"placeholder",
+			"<img src=\"../img/back.png\">",
+			"<img src=\"../img/next.png\">",
+			"page",
+			"data",
+			"data_master",
+			"pid",
+			"participant ID",
+			"_set",
+			"view",
+			"model",
+			"population",
+			"density",
+			"name",
+			"className",
+			"tModel",
+			"symbolize",
+			"resymbolize",
+			"view",
+			"this.model.get('classificationType'",
+			"this.model.set('classificationType'",
+			"classificationType",
+			"this.min",
+			"this.nClasses",
+			"label",
+			"\"12\"",
+			"\"11\"",
+			"\"10\"",
+			"\"9\"",
+			"\"8\"",
+			"\"7\"",
+			"\"6\"",
+			"\"5\"",
+			"\"4\"",
+			"\"3\"",
+			"targetVal",
+			"inputVal",
+			"className",
+			"ReexpressInputView",
+			"",
+			"i",
+			"techniqueModel",
+			"leafletView",
+			"this.offLayers",
+			"interactionToggleView",
+			"InteractionToggleView",
+			"setInteractionControls",
+			"map",
+			"disable",
+			"layerChange",
+			"people/mi2",
+			"attributes.svgHeight",
+			"Density (ppl/sq. mile)",
+			"Density (people/mile)",
+			"Density (people per mile)",
+			"svgHeight",
+			"LegendLayerView",
+			"this.model",
+			"controlName",
+			"layerDiv",
+			".layer-name",
+			"leafletLayer",
+			"displayAttributes",
+			"dataLayers",
+			"displayAttributes",
+			"dataLayerName",
+			"buttonCounts",
+			"this",
+			"dataLayerModels[i+a]"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 16275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14050,
+								14050
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5974.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/conditions.json",
+					"settings":
+					{
+						"buffer_size": 141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "config/param.php",
+					"settings":
+					{
+						"buffer_size": 411,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								411,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 11225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6869,
+								6875
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8594.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 57206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42597,
+								42597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 19528.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/modules/app.js",
+					"settings":
+					{
+						"buffer_size": 3965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3205,
+								3205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/modules/m-section.js",
+					"settings":
+					{
+						"buffer_size": 100939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								64186,
+								64190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 39674.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "config/map.json",
+					"settings":
+					{
+						"buffer_size": 12556,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10298,
+								10298
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4754.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "js/modules/q-section.js",
+					"settings":
+					{
+						"buffer_size": 17523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								231,
+								231
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "doc/versions.md",
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								490,
+								490
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "LICENSE.txt",
+					"settings":
+					{
+						"buffer_size": 13585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1125,
+								1125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "config/styles.json",
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "config/questions.json",
+					"settings":
+					{
+						"buffer_size": 5970,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3059,
+								3059
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2274.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "doc/README.md",
+					"settings":
+					{
+						"buffer_size": 57227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42618,
+								42056
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 19448.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true
+}
