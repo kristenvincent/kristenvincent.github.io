@@ -11,7 +11,7 @@
 			"library": "Leaflet",
 			"mapOptions": {
 				"legend": true,
-				"resetButton": true,
+				"resetButton": false,
 				"center": [
 					40,
 					-115
@@ -43,13 +43,13 @@
 						"source": "data/ExampleMapDataCopy.geojson",
 						"expressedAttribute": "Kilograms",
 						"displayAttributes": [
-							"Company"
+							"Company", "Kilograms"
 						],
 						"layerOptions": {
-					"fillOpacity": 0.8,
+					"fillOpacity": 0.7,
 					"color": "black",
 					"weight": 0.5,
-					"opacity": 1
+					"opacity": 0.5
 				},
 						"renderOnLoad": true,
 						"techniques": [
@@ -75,7 +75,7 @@
 							"doubleClick": true,
 							"box": true,
 							"keyboard": true,
-							"widget": false
+							"widget": true
 						}
 					},
 					"pan": {
@@ -100,7 +100,7 @@
 				"library": "Leaflet",
 				"mapOptions": {
 					"legend": true,
-					"resetButton": true,
+					"resetButton": false,
 					"center": [
 						40,
 						-117
@@ -127,19 +127,47 @@
 					],
 					"dataLayers": [
 						{
+							"name": "Violations",
+							"source": "data/ExampleMapData.geojson",
+							"roundTo": 0,
+							"expressedAttribute": "Violations",
+							"displayAttributes": [
+								"Violations"
+							],
+							"layerOptions": {
+						"fillOpacity": 0.7,
+						"color": "purple",
+						"weight": 0.5,
+						"opacity": 0.5
+					},
+							"renderOnLoad": true,
+											"techniques": [
+												{
+													"type": "proportional symbol",
+														"classification": "quantile",
+														"classes": [
+															7.8,
+															11.1,
+															15.7,
+															22.2,
+															31.4
+														]
+												}
+											]},
+						{
 							"roundTo": 0,
 							"name": "Kilogram Data",
 							"source": "data/ExampleMapData.geojson",
 							"expressedAttribute": "Kilograms",
 							"displayAttributes": [
-								"Kilograms"
+								"Kilograms", "Violations"
 							],
 							"renderOnLoad": true,
 							"layerOptions": {
-						"fillOpacity": 0.8,
+						"fillOpacity": 0.7,
 						"color": "black",
 						"weight": 0.5,
-						"opacity": 1
+						"opacity": 0.5
 					},
 							"techniques": [
 								{
@@ -179,18 +207,6 @@
 					}
 					],
 					"interactions": {
-						"zoom": {
-							"logging": true,
-							"toggle": false,
-							"interface": {
-								"touch": true,
-								"scrollWheel": true,
-								"doubleClick": true,
-								"box": true,
-								"keyboard": true,
-								"widget": false
-							}
-						},
 						"pan": {
 							"logging": true,
 							"toggle": false,
@@ -213,69 +229,6 @@
 							"toggle": false,
 							"dataLayers": []
 						},
-						"retrieve": {
-							"logging": true,
-							"interface": {
-								"window": false
-					}
-				}
-					}
-				},
-			{
-				"page": 5,
-				"library": "Leaflet",
-				"mapOptions": {
-					"legend": true,
-					"resetButton": true,
-					"center": [
-						37,
-						-98
-					],
-					"zoom": 4,
-					"minZoom": 4,
-					"maxZoom": 10,
-					"maxBounds": [
-						[
-							10,
-							-10
-						],
-						[
-							90,
-							-150
-						]
-					]
-				},
-				"baseLayers": [
-						{
-							"name": "Basemap",
-							"source": "https://api.mapbox.com/styles/v1/vinckl/cis98z43a002u2xoa5i3qu52n/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoidmluY2tsIiwiYSI6InBxek03N1UifQ.U-SETItEW23RpzOykJX5Jw"
-						}
-					],
-					"dataLayers": [
-						{
-							"name": "Basketball tweets",
-							"source": "data/countiesall.geojson",
-							"expressedAttribute": "Basketball",
-							"displayAttributes": [
-								"NAME10"
-							],
-							"layerOptions": {
-						"fillOpacity": 0.8,
-						"color": "black",
-						"weight": 0.5,
-						"opacity": 1
-					},
-							"renderOnLoad": true,
-							"techniques": [
-								{
-									"type": "choropleth",
-									"classification": "equal interval",
-									"classes": "BuGn.5"
-								}
-							]
-						}
-					],
-					"interactions": {
 						"zoom": {
 							"logging": true,
 							"toggle": false,
@@ -285,31 +238,26 @@
 								"doubleClick": true,
 								"box": true,
 								"keyboard": true,
-								"widget": false
+								"widget": true
 							}
 						},
-						"pan": {
+						"retrieve": {
 							"logging": true,
-							"toggle": false,
 							"interface": {
-								"drag": true,
-								"keyboard": true,
-								"widget": false
-							}
-						},
-						"sequence": {
-							"dataLayers": [
-								"MapTest"
-							]
-						}
+								"window": false
 					}
+				}
+					}
+				},
+			{
+				"page": 5
 				},
 					{
 						"page": 6,
 						"library": "Leaflet",
 						"mapOptions": {
 							"legend": true,
-							"resetButton": true,
+							"resetButton": false,
 							"center": [
 								40,
 								-82.9
@@ -336,24 +284,24 @@
 							],
 							"dataLayers": [
 								{
-									"name": "Waste Imported",
+									"name": "Kilograms",
 									"renderOnLoad": true,
 									"roundTo": 0,
 									"source": "data/Ohio.geojson",
 									"expressedAttribute": "Kilograms",
 									"displayAttributes": [
-										"Company", "Violations in 3 Years", "Management Method"
+										"Company",  "Kilograms", "Violations", "Air Quality Watches"
 									],
 									"layerOptions": {
-								"fillOpacity": 0.8,
+								"fillOpacity": 0.7,
 								"color": "black",
 								"weight": 0.5,
-								"opacity": 1
+								"opacity": 0.5
 							},
 											"techniques": [
 												{
 													"type": "proportional symbol",
-														"classification": "equal interval",
+														"classification": "quantile",
 														"classes": [
 															7.8,
 															11.1,
@@ -373,7 +321,7 @@
 										"doubleClick": true,
 										"box": true,
 										"keyboard": true,
-										"widget": false
+										"widget": true
 									}
 								},
 									"retrieve": {
@@ -399,7 +347,7 @@
 								"library": "Leaflet",
 								"mapOptions": {
 									"legend": true,
-									"resetButton": true,
+									"resetButton": false,
 									"center": [
 										32,
 										-99.5
@@ -426,24 +374,24 @@
 									],
 									"dataLayers": [
 										{
-											"name": "Waste Imported",
+											"name": "Kilograms",
 											"source": "data/Texas.geojson",
 											"roundTo": 0,
 											"expressedAttribute": "Kilograms",
 											"displayAttributes": [
-												"Company", "Violations in 3 Years", "Management Method", "Census Tract Income ($)", "Census Tract Percent Non-White Population"
+												"Company", "Kilograms", "Violations", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
 											],
 											"layerOptions": {
-										"fillOpacity": 0.8,
+										"fillOpacity": 0.7,
 										"color": "black",
 										"weight": 0.5,
-										"opacity": 1
+										"opacity": 0.5
 									},
 											"renderOnLoad": true,
 															"techniques": [
 																{
 																	"type": "proportional symbol",
-																		"classification": "equal interval",
+																		"classification": "quantile",
 																		"classes": [
 																			7.8,
 																			11.1,
@@ -463,7 +411,7 @@
 												"doubleClick": true,
 												"box": true,
 												"keyboard": true,
-												"widget": false
+												"widget": true
 											}
 										},
 										"pan": {
@@ -490,7 +438,7 @@
 								"library": "Leaflet",
 								"mapOptions": {
 									"legend": true,
-									"resetButton": true,
+									"resetButton": false,
 									"center": [
 										32,
 										-99.5
@@ -517,24 +465,24 @@
 									],
 									"dataLayers": [
 										{
-											"name": "Waste Imported",
+											"name": "Kilograms",
 											"source": "data/Texas.geojson",
 											"roundTo": 0,
 											"expressedAttribute": "Kilograms",
 											"displayAttributes": [
-												"Company", "Violations in 3 Years", "Management Method"
+												"Company", "Kilograms", "Violations", "Air Quality Watches"
 											],
 											"layerOptions": {
-										"fillOpacity": 0.8,
+										"fillOpacity": 0.7,
 										"color": "black",
 										"weight": 0.5,
-										"opacity": 1
+										"opacity": 0.5
 									},
 											"renderOnLoad": true,
 															"techniques": [
 																{
 																	"type": "proportional symbol",
-																		"classification": "equal interval",
+																		"classification": "quantile",
 																		"classes": [
 																			7.8,
 																			11.1,
@@ -554,7 +502,7 @@
 												"doubleClick": true,
 												"box": true,
 												"keyboard": true,
-												"widget": false
+												"widget": true
 											}
 										},
 										"pan": {
@@ -581,7 +529,7 @@
 									"library": "Leaflet",
 									"mapOptions": {
 										"legend": true,
-										"resetButton": true,
+										"resetButton": false,
 										"center": [
 											40,
 											-82.9
@@ -608,24 +556,24 @@
 										],
 										"dataLayers": [
 											{
-												"name": "Waste Imported",
+												"name": "Kilograms",
 												"renderOnLoad": true,
 												"roundTo": 0,
 												"source": "data/Ohio.geojson",
 												"expressedAttribute": "Kilograms",
 												"displayAttributes": [
-													"Company", "Violations in 3 Years", "Management Method", "Census Tract Income ($)", "Census Tract Percent Non-White Population"
+													"Company", "Kilograms", "Violations", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
 												],
 												"layerOptions": {
-											"fillOpacity": 0.8,
+											"fillOpacity": 0.7,
 											"color": "black",
 											"weight": 0.5,
-											"opacity": 1
+											"opacity": 0.5
 										},
 														"techniques": [
 															{
 																"type": "proportional symbol",
-																	"classification": "equal interval",
+																	"classification": "quantile",
 																	"classes": [
 																		7.8,
 																		11.1,
@@ -645,7 +593,7 @@
 													"doubleClick": true,
 													"box": true,
 													"keyboard": true,
-													"widget": false
+													"widget": true
 												}
 											},
 												"retrieve": {
@@ -671,7 +619,7 @@
 									"library": "Leaflet",
 									"mapOptions": {
 										"legend": true,
-										"resetButton": true,
+										"resetButton": false,
 										"center": [
 											40,
 											-83.2
@@ -698,24 +646,76 @@
 										],
 										"dataLayers": [
 											{
-												"name": "Waste Imported",
+												"name": "Violations",
 												"source": "data/Ohio.geojson",
 												"roundTo": 0,
-												"expressedAttribute": "Kilograms",
+												"expressedAttribute": "Violations",
 												"displayAttributes": [
-													"Management Method", "Violations in 3 Years"
+													"Violations"
 												],
 												"layerOptions": {
-											"fillOpacity": 0.8,
-											"color": "black",
+											"fillOpacity": 0.7,
+											"color": "purple",
 											"weight": 0.5,
-											"opacity": 1
+											"opacity": 0.5
 										},
 												"renderOnLoad": true,
 																"techniques": [
 																	{
 																		"type": "proportional symbol",
-																			"classification": "equal interval",
+																			"classification": "quantile",
+																			"classes": [
+																				7.8,
+																				11.1,
+																				15.7,
+																				22.2,
+																				31.4
+																			]
+																	}
+																]},
+											{
+									"roundTo": 0,
+									"name": "Air Quality",
+									"source": "data/ohioair.geojson",
+									"expressedAttribute": "Air Quality Watches",
+									"displayAttributes": [
+										"Air Quality Watches"
+									],
+									"layerOptions": {
+								"fillOpacity": 0.8,
+								"color": "black",
+								"weight": 0.5,
+								"opacity": 1,
+								"minZoom": 6,
+								"maxZoom": 10
+								},
+									"renderOnLoad": true,
+									"techniques": [
+										{
+											"type": "choropleth",
+											"classification": "equal interval",
+											"classes": "BuGn.3"
+										}
+									]},
+											{
+												"name": "Kilograms",
+												"source": "data/Ohio.geojson",
+												"roundTo": 0,
+												"expressedAttribute": "Kilograms",
+												"displayAttributes": [
+													"Company","Kilograms", "Violations", "Air Quality Watches"
+												],
+												"layerOptions": {
+											"fillOpacity": 0.7,
+											"color": "black",
+											"weight": 0.5,
+											"opacity": 0.5
+										},
+												"renderOnLoad": true,
+																"techniques": [
+																	{
+																		"type": "proportional symbol",
+																			"classification": "quantile",
 																			"classes": [
 																				7.8,
 																				11.1,
@@ -751,18 +751,6 @@
 															}
 															],
 										"interactions": {
-											"zoom": {
-												"logging": true,
-												"toggle": false,
-												"interface": {
-													"touch": true,
-													"scrollWheel": true,
-													"doubleClick": true,
-													"box": true,
-													"keyboard": true,
-													"widget": false
-												}
-											},
 											"pan": {
 												"logging": true,
 												"toggle": false,
@@ -782,7 +770,7 @@
 											},
 											"filter": {
 												"dataLayers": [
-														"Waste Imported"
+														"Kilograms"
 													],
 													"tool": "slider",
 													"logging": true,
@@ -794,16 +782,28 @@
 												"dataLayers": [
 													"Company"
 												]
+											},
+											"zoom": {
+												"logging": true,
+												"toggle": false,
+												"interface": {
+													"touch": true,
+													"scrollWheel": true,
+													"doubleClick": true,
+													"box": true,
+													"keyboard": true,
+													"widget": true
+												}
 											}}},
 											{
 												"page": 11,
 												"library": "Leaflet",
 												"mapOptions": {
 													"legend": true,
-													"resetButton": true,
+													"resetButton": false,
 													"center": [
-														30,
-														-96
+														29.5,
+														-99
 													],
 													"zoom": 6,
 													"minZoom": 6,
@@ -827,24 +827,124 @@
 													],
 													"dataLayers": [
 														{
-															"name": "Waste Imported",
+															"name": "Violations",
 															"source": "data/Texas.geojson",
 															"roundTo": 0,
-															"expressedAttribute": "Kilograms",
+															"expressedAttribute": "Violations",
 															"displayAttributes": [
-																"Management Method", "Violations in 3 Years", "Census Tract Income ($)", "Census Tract Percent Non-White Population"
+																"Violations"
 															],
 															"layerOptions": {
-														"fillOpacity": 0.8,
-														"color": "black",
+														"fillOpacity": 0.7,
+														"color": "purple",
 														"weight": 0.5,
-														"opacity": 1
+														"opacity": 0.5
 													},
 															"renderOnLoad": true,
 																			"techniques": [
 																				{
 																					"type": "proportional symbol",
-																						"classification": "equal interval",
+																						"classification": "quantile",
+																						"classes": [
+																							7.8,
+																							11.1,
+																							15.7,
+																							22.2,
+																							31.4
+																						]
+																				}
+																			]},
+														{
+												"roundTo": 0,
+												"name": "Air Quality",
+												"source": "data/texascounties.geojson",
+												"expressedAttribute": "Air Quality Watches",
+												"displayAttributes": [
+													"Air Quality Watches"
+												],
+												"layerOptions": {
+											"fillOpacity": 0.8,
+											"color": "black",
+											"weight": 0.5,
+											"opacity": 1,
+											"minZoom": 5,
+											"maxZoom": 10
+											},
+												"renderOnLoad": true,
+												"techniques": [
+													{
+														"type": "choropleth",
+														"classification": "equal interval",
+														"classes": "BuGn.3"
+													}
+												]},
+														{
+												"roundTo": 0,
+												"name": "Percent in Poverty",
+												"source": "data/texascounties.geojson",
+												"expressedAttribute": "Poverty (%)",
+												"displayAttributes": [
+													"Poverty (%)"
+												],
+												"layerOptions": {
+											"fillOpacity": 0.8,
+											"color": "black",
+											"weight": 0.5,
+											"opacity": 1,
+											"minZoom": 5,
+											"maxZoom": 10
+											},
+												"renderOnLoad": true,
+												"techniques": [
+													{
+														"type": "choropleth",
+														"classification": "equal interval",
+														"classes": "BuGn.3"
+													}
+												]},
+														{
+												"roundTo": 0,
+												"name": "Soil Penetration",
+												"source": "data/texasperm.geojson",
+												"expressedAttribute": "Permeability",
+												"displayAttributes": [
+													"Permeability"
+												],
+												"layerOptions": {
+											"fillOpacity": 0.8,
+											"color": "black",
+											"weight": 0.5,
+											"opacity": 1,
+											"minZoom": 5,
+											"maxZoom": 10
+											},
+												"renderOnLoad": true,
+												"techniques": [
+													{
+														"type": "choropleth",
+														"classification": "equal interval",
+														"classes": "BuGn.3"
+													}
+												]},
+														{
+															"name": "Kilograms",
+															"source": "data/Texas.geojson",
+															"roundTo": 0,
+															"expressedAttribute": "Kilograms",
+															"displayAttributes": [
+																"Company","Kilograms", "Violations", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
+															],
+															"layerOptions": {
+														"fillOpacity": 0.7,
+														"color": "black",
+														"weight": 0.5,
+														"opacity": 0.5
+													},
+															"renderOnLoad": true,
+																			"techniques": [
+																				{
+																					"type": "proportional symbol",
+																						"classification": "quantile",
 																						"classes": [
 																							7.8,
 																							11.1,
@@ -880,18 +980,6 @@
 																		}
 																		],
 													"interactions": {
-														"zoom": {
-															"logging": true,
-															"toggle": false,
-															"interface": {
-																"touch": true,
-																"scrollWheel": true,
-																"doubleClick": true,
-																"box": true,
-																"keyboard": true,
-																"widget": false
-															}
-														},
 														"pan": {
 															"logging": true,
 															"toggle": false,
@@ -911,7 +999,7 @@
 														},
 														"filter": {
 															"dataLayers": [
-																	"Waste Imported"
+																	"Kilograms"
 																],
 																"tool": "slider",
 																"logging": true,
@@ -923,16 +1011,28 @@
 															"dataLayers": [
 																"Company"
 															]
+														},
+														"zoom": {
+															"logging": true,
+															"toggle": false,
+															"interface": {
+																"touch": true,
+																"scrollWheel": true,
+																"doubleClick": true,
+																"box": true,
+																"keyboard": true,
+																"widget": true
+															}
 														}}},
 										{
 											"page": 12,
 											"library": "Leaflet",
 											"mapOptions": {
 												"legend": true,
-												"resetButton": true,
+												"resetButton": false,
 												"center": [
-													30,
-													-96
+													29.5,
+													-98.5
 												],
 												"zoom": 6,
 												"minZoom": 6,
@@ -956,24 +1056,76 @@
 												],
 												"dataLayers": [
 													{
-														"name": "Waste Imported",
+														"name": "Violations",
 														"source": "data/Texas.geojson",
 														"roundTo": 0,
-														"expressedAttribute": "Kilograms",
+														"expressedAttribute": "Violations",
 														"displayAttributes": [
-															"Management Method", "Violations in 3 Years"
+															"Violations"
 														],
 														"layerOptions": {
-													"fillOpacity": 0.8,
-													"color": "black",
+													"fillOpacity": 0.7,
+													"color": "purple",
 													"weight": 0.5,
-													"opacity": 1
+													"opacity": 0.5
 												},
 														"renderOnLoad": true,
 																		"techniques": [
 																			{
 																				"type": "proportional symbol",
-																					"classification": "equal interval",
+																					"classification": "quantile",
+																					"classes": [
+																						7.8,
+																						11.1,
+																						15.7,
+																						22.2,
+																						31.4
+																					]
+																			}
+																		]},
+													{
+											"roundTo": 0,
+											"name": "Air Quality",
+											"source": "data/texascounties.geojson",
+											"expressedAttribute": "Air Quality Watches",
+											"displayAttributes": [
+												"Air Quality Watches"
+											],
+											"layerOptions": {
+										"fillOpacity": 0.8,
+										"color": "black",
+										"weight": 0.5,
+										"opacity": 1,
+										"minZoom": 5,
+										"maxZoom": 10
+										},
+											"renderOnLoad": true,
+											"techniques": [
+												{
+													"type": "choropleth",
+													"classification": "equal interval",
+													"classes": "BuGn.3"
+												}
+											]},
+													{
+														"name": "Kilograms",
+														"source": "data/Texas.geojson",
+														"roundTo": 0,
+														"expressedAttribute": "Kilograms",
+														"displayAttributes": [
+															"Company", "Kilograms", "Violations", "Air Quality Watches"
+														],
+														"layerOptions": {
+													"fillOpacity": 0.7,
+													"color": "black",
+													"weight": 0.5,
+													"opacity": 0.5
+												},
+														"renderOnLoad": true,
+																		"techniques": [
+																			{
+																				"type": "proportional symbol",
+																					"classification": "quantile",
 																					"classes": [
 																						7.8,
 																						11.1,
@@ -1009,18 +1161,6 @@
 																	}
 																	],
 												"interactions": {
-													"zoom": {
-														"logging": true,
-														"toggle": false,
-														"interface": {
-															"touch": true,
-															"scrollWheel": true,
-															"doubleClick": true,
-															"box": true,
-															"keyboard": true,
-															"widget": false
-														}
-													},
 													"pan": {
 														"logging": true,
 														"toggle": false,
@@ -1040,7 +1180,7 @@
 													},
 													"filter": {
 														"dataLayers": [
-																"Waste Imported"
+																"Kilograms"
 															],
 															"tool": "slider",
 															"logging": true,
@@ -1052,16 +1192,28 @@
 														"dataLayers": [
 															"Company"
 														]
+													},
+													"zoom": {
+														"logging": true,
+														"toggle": false,
+														"interface": {
+															"touch": true,
+															"scrollWheel": true,
+															"doubleClick": true,
+															"box": true,
+															"keyboard": true,
+															"widget": true
+														}
 													}}},
 													{
 														"page": 13,
 														"library": "Leaflet",
 														"mapOptions": {
 															"legend": true,
-															"resetButton": true,
+															"resetButton": false,
 															"center": [
 																40,
-																-83.2
+																-83.46
 															],
 															"zoom": 7,
 															"minZoom": 7,
@@ -1085,24 +1237,124 @@
 															],
 															"dataLayers": [
 																{
-																	"name": "Waste Imported",
+																	"name": "Violations",
 																	"source": "data/Ohio.geojson",
 																	"roundTo": 0,
-																	"expressedAttribute": "Kilograms",
+																	"expressedAttribute": "Violations",
 																	"displayAttributes": [
-																		"Management Method", "Violations in 3 Years", "Census Tract Income ($)", "Census Tract Percent Non-White Population"
+																		"Violations"
 																	],
 																	"layerOptions": {
-																"fillOpacity": 0.8,
-																"color": "black",
+																"fillOpacity": 0.7,
+																"color": "purple",
 																"weight": 0.5,
-																"opacity": 1
+																"opacity": 0.5
 															},
 																	"renderOnLoad": true,
 																					"techniques": [
 																						{
 																							"type": "proportional symbol",
-																								"classification": "equal interval",
+																								"classification": "quantile",
+																								"classes": [
+																									7.8,
+																									11.1,
+																									15.7,
+																									22.2,
+																									31.4
+																								]
+																						}
+																					]},
+																{
+														"roundTo": 0,
+														"name": "Air Quality",
+														"source": "data/ohioair.geojson",
+														"expressedAttribute": "Air Quality Watches",
+														"displayAttributes": [
+															"Air Quality Watches"
+														],
+														"layerOptions": {
+													"fillOpacity": 0.8,
+													"color": "black",
+													"weight": 0.5,
+													"opacity": 1,
+													"minZoom": 6,
+													"maxZoom": 10
+													},
+														"renderOnLoad": true,
+														"techniques": [
+															{
+																"type": "choropleth",
+																"classification": "equal interval",
+																"classes": "BuGn.3"
+															}
+														]},
+																{
+														"roundTo": 0,
+														"name": "Percent in Poverty",
+														"source": "data/goodohio.geojson",
+														"expressedAttribute": "Poverty",
+														"displayAttributes": [
+															"Poverty"
+														],
+														"layerOptions": {
+													"fillOpacity": 0.8,
+													"color": "black",
+													"weight": 0.5,
+													"opacity": 1,
+													"minZoom": 6,
+													"maxZoom": 10
+													},
+														"renderOnLoad": true,
+														"techniques": [
+															{
+																"type": "choropleth",
+																"classification": "equal interval",
+																"classes": "BuGn.3"
+															}
+														]},
+																{
+														"roundTo": 0,
+														"name": "Soil Penetration",
+														"source": "data/permeability.geojson",
+														"expressedAttribute": "Permeability",
+														"displayAttributes": [
+															"Permeability"
+														],
+														"layerOptions": {
+													"fillOpacity": 0.8,
+													"color": "black",
+													"weight": 0.5,
+													"opacity": 1,
+													"minZoom": 6,
+													"maxZoom": 10
+													},
+														"renderOnLoad": true,
+														"techniques": [
+															{
+																"type": "choropleth",
+																"classification": "equal interval",
+																"classes": "BuGn.3"
+															}
+														]},
+																{
+																	"name": "Kilograms",
+																	"source": "data/Ohio.geojson",
+																	"roundTo": 0,
+																	"expressedAttribute": "Kilograms",
+																	"displayAttributes": [
+																		"Company","Kilograms", "Violations", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
+																	],
+																	"layerOptions": {
+																"fillOpacity": 0.7,
+																"color": "black",
+																"weight": 0.5,
+																"opacity": 0.5
+															},
+																	"renderOnLoad": true,
+																					"techniques": [
+																						{
+																							"type": "proportional symbol",
+																								"classification": "quantile",
 																								"classes": [
 																									7.8,
 																									11.1,
@@ -1138,18 +1390,6 @@
 																				}
 																				],
 															"interactions": {
-																"zoom": {
-																	"logging": true,
-																	"toggle": false,
-																	"interface": {
-																		"touch": true,
-																		"scrollWheel": true,
-																		"doubleClick": true,
-																		"box": true,
-																		"keyboard": true,
-																		"widget": false
-																	}
-																},
 																"pan": {
 																	"logging": true,
 																	"toggle": false,
@@ -1169,7 +1409,7 @@
 																},
 																"filter": {
 																	"dataLayers": [
-																			"Waste Imported"
+																			"Kilograms"
 																		],
 																		"tool": "slider",
 																		"logging": true,
@@ -1181,7 +1421,20 @@
 																	"dataLayers": [
 																		"Company"
 																	]
-																}}},
+																},
+																"zoom": {
+																	"logging": true,
+																	"toggle": false,
+																	"interface": {
+																		"touch": true,
+																		"scrollWheel": true,
+																		"doubleClick": true,
+																		"box": true,
+																		"keyboard": true,
+																		"widget": true
+																	}
+																}
+																}},
 											{
 												"page": 14
 												},

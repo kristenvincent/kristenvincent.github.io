@@ -24,7 +24,7 @@
 				{
 					"blocks": [
 						{
-							"ask": "<strong>Thank you for agreeing to participate!</strong></br></br>Digital interactive maps are now a part of our everyday lives. This research investigates how such interactive maps can or cannot help us make choices about the management of goods and materials in the landscape.</br></br> Specifically, the following survey uses the regulation and trade of hazardous waste as a case study. Hazardous waste flows among Canada, Mexico, and the United States daily, with many management decisions needed to ensure safe transport and disposal. Thus, our choices about how to regulate hazardous waste require consideration of a number of spatial criteria and have a number of potential solutions. In this study, you will be asked to make two different decisions about the hazardous waste trade using two different interactive maps.</br></br><strong><u>INSTRUCTIONS:</u></strong></br></br>In the map survey, you will be presented with two scenarios common to the regulation and trade of hazardous waste. For each scenario, you will make use of an interactive map to arrive at a decision you feel is optimal. After each decision, you will be asked to assess your confidence in the solution at which you arrived and to rate the difficulty you had in making this choice. Between the pair of scenarios, you will complete a set of map reading tasks with a static map to refresh your train of thought. </br></br>Before your task begins, you will be given an example map to work with. After your decision tasks are completed, you will be asked a series of background questions. The entire survey should take about 30 minutes. You will be compensated after you complete all map tasks and a background survey and submit the responses at the end.</br></br><strong><u>ELIGIBILITY:</u></strong></br></br>Before beginning, please once again review your eligibility for participating in the study. These restrictions greatly impact your responses:</br><ul><li>You must be 18 years of age or older.</li><li>English must be your first language.</li><li>You must currently be living in the United States, but not in the states of Ohio or Texas, the location of the pair of scenarios. </li><li>You must complete the survey on a laptop or desktop computer (i.e. not mobile). </li></ul></br></br><strong>Select 'Next' to confirm that you have read the instructions and confirm that you are eligible and ready to go to an example.</strong>"
+							"ask": "<strong>Thank you for agreeing to participate!</strong></br></br>Digital interactive maps are now a part of our everyday lives. This research investigates how such interactive maps can or cannot help us make choices about the management of goods and materials in the landscape.</br></br> Specifically, the following survey uses the regulation and trade of hazardous waste as a case study. Hazardous waste flows among Canada, Mexico, and the United States daily, with many management decisions needed to ensure safe transport and disposal. Thus, our choices about how to regulate hazardous waste require consideration of a number of spatial criteria and have a number of potential solutions. In this study, you will be asked to make two different decisions about the hazardous waste trade using two different interactive maps.</br></br><strong><u>INSTRUCTIONS:</u></strong></br></br>In the map survey, you will be presented with two scenarios common to the regulation and trade of hazardous waste. For each scenario, you will make use of an interactive map to arrive at a decision you feel is optimal. After each decision, you will be asked to assess your confidence in the solution at which you arrived and to rate the difficulty you had in making this choice. Between the pair of scenarios, you will complete a set of map reading tasks with a static map to refresh your train of thought. </br></br>Before your task begins, you will be given an example map to work with. After your decision tasks are completed, you will be asked a series of background questions. The entire survey should take about 30 minutes. You will be compensated after you complete all map tasks and a background survey and submit the responses at the end.<br><br>Note: Do no close your browser at any time during the survey unless you wish to exit without compensation.</br></br><strong><u>ELIGIBILITY:</u></strong></br></br>Before beginning, please once again review your eligibility for participating in the study. These restrictions greatly impact your responses:</br><ul><li>You must be 18 years of age or older.</li><li>English must be your first language.</li><li>You must currently be living in the United States, but not in the states of Ohio or Texas, the location of the pair of scenarios. </li><li>You must complete the survey on a laptop or desktop computer (i.e. not mobile). </li></ul></br></br><strong>Select 'Next' to confirm that you have read the instructions and confirm that you are eligible and ready to go to an example.</strong>"
 						}
 					],
 					"buttons": [
@@ -41,7 +41,7 @@
 					"blocks": [
 						{
 							"title": "Example Map",
-							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map, you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into the map by double-clicking or using your mouse wheel to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question."
+							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map, you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into and out of the map using your mouse wheel, trackpad, or zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question."
 						},
 						{
 							"ask": "Rank the sites that imported the most solid hazardous waste from highest to lowest by dragging the names above and below each other:",
@@ -61,6 +61,9 @@
 									}
 								]
 							}
+						},
+						{
+							"ask": "<strong>By selecting next you agree that you understand the interface and questions and are ready to begin the study.</strong>"
 						}
 					],
 					"buttons": [
@@ -77,7 +80,7 @@
 					"blocks": [
 						{
 							"title": "Example Map",
-							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map, you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into the map by double-clicking or using your mouse wheel to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li><li>Overlay text using the checkbox to add labels of each site to the map.</li><li>Filter using the slider bar to only view sites that process a specified amount of hazardous waste.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question."
+							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map, you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into and out of the map using your mouse wheel, trackpad, or zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li><li>Overlay text using the checkbox to add labels of each site to the map.</li><li>Filter using the slider bar to only view sites that process a specified amount of hazardous waste.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question."
 						},
 						{
 							"ask": "Rank the sites that imported the most solid hazardous waste from highest to lowest by dragging the names above and below each other:",
@@ -97,6 +100,9 @@
 									}
 								]
 							}
+						},
+						{
+							"ask": "<strong>By selecting next you agree that you understand the interface and questions and are ready to begin the study.</strong>"
 						}
 					],
 					"buttons": [
@@ -107,16 +113,17 @@
 		},
 		{
 			"page": 5,
-			"fullpage": false,
+			"fullpage": true,
 			"sets": [
 				{
 					"blocks": [
 						{
+							"image": "img/benchmark.png",
 							"title": "Map Reading Tasks",
-							"ask": "What state has the easternmost hazardous waste facility?",
+							"ask": "<strong>What state has the easternmost hazardous waste facility?</strong>",
 							"input": {
 								"required": true,
-								"autoadvance": true,
+								"autoadvance": false,
 								"type": "radios",
 								"options": [
 									{
@@ -127,7 +134,11 @@
 									}
 								]
 							}
-						}]},
+						}],
+						"buttons": [
+								"next"
+							]
+						},
 						{
 							"blocks": [
 								{
@@ -190,10 +201,11 @@
 						{
 						"resetMap": true,
 						"blocks":	[{
-							"ask": "Which state has more hazardous waste facilities?",
+							"image": "img/benchmark.png",
+							"ask": "<strong>Which state has more hazardous waste facilities?</strong>",
 							"input": {
 								"required": true,
-								"autoadvance": true,
+								"autoadvance": false,
 								"type": "radios",
 								"options": [
 										{
@@ -209,7 +221,10 @@
 									}
 								]
 							}
-							}]},
+							}],
+							"buttons": [
+									"next"
+								]},
 							{
 								"blocks": [
 									{
@@ -272,10 +287,11 @@
 							{
 							"resetMap": true,
 							"blocks":	[{
-							"ask": "Which state has the most hazardous waste facilities?",
+							"image": "img/benchmark.png",
+							"ask": "<strong>Which state has the most hazardous waste facilities?</strong>",
 							"input": {
 								"required": true,
-								"autoadvance": true,
+								"autoadvance": false,
 								"type": "radios",
 								"options": [
 									{
@@ -289,7 +305,10 @@
 									}
 								]
 							}
-							}]},
+							}],
+							"buttons": [
+									"next"
+								]},
 							{
 								"blocks": [
 									{
@@ -352,10 +371,11 @@
 								{
 								"resetMap": true,
 								"blocks":	[{
-								"ask": "Where are low poverty rates and a high number of shipments highly correlated? ",
+								"image": "img/benchmark.png",
+								"ask": "<strong>Where are low poverty rates and a high number of shipments highly correlated?</strong>",
 								"input": {
 									"required": true,
-									"autoadvance": true,
+									"autoadvance": false,
 									"type": "radios",
 									"options": [
 										{
@@ -366,7 +386,10 @@
 										}
 									]
 								}
-								}]},
+								}],
+								"buttons": [
+										"next"
+									]},
 								{
 									"blocks": [
 										{
@@ -429,11 +452,12 @@
 							{
 								"resetMap": true,
 							"blocks":	[{
-							"ask": "Which region is most active in the hazardous waste trade?",
+							"image": "img/benchmark.png",
+							"ask": "<strong>Which region is most active in the hazardous waste trade?</strong>",
 							"input": {
 								"required": true,
 								"autoadvance": false,
-								"autoadvance": true,
+								"autoadvance": false,
 								"type": "radios",
 								"options": [
 										{
@@ -450,7 +474,10 @@
 								]
 							}
 						}
-					]
+					],
+					"buttons": [
+							"next"
+						]
 				},
 				{
 					"blocks": [
@@ -520,8 +547,8 @@
 				{
 					"blocks": [
 						{
-							"title": "Map 1",
-							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Ohio for processing. Your decision to ship waste internationally is due to processing needs that cannot be fully met regionally and economic benefits given Ohio's infrastructure. Your waste needs to be incinerated, which limits the facilities with which you can contract. Your goal is to send the waste to a place you know will handle the waste properly, otherwise your new business could face scrutiny. Given this, rank the sites in the order that you plan on contracting, using information in the interactive map.",
+							"title": "Map Task",
+							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Ohio for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites from most likely to least likely that you plan on contracting with, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -531,22 +558,35 @@
 										"text": "AMG VANADIUM"
 									},
 									{
-										"text": "CLEAN HARBORS, INC."
+										"text": "CLEAN HARBORS INC."
 									},
 									{
-										"text": "CLEAN HARBORS, INC.-CLEVELAND"
+										"text": "CLEVELAND CORP."
 									},
 									{
-										"text": "ENVIRITE OF OHIO INC"
+										"text": "ENVIRITE INC."
 									},
 									{
-										"text": "ROSS INCINERATION SERVICES, INC."
+										"text": "ROSS INCINERATION INC."
 									},
 									{
-										"text": "SPRING GROVE RESOURCE RECOVERY INC."
+										"text": "SPRING GROVE INC."
 									},
 									{
-										"text": "SYSTECH CORPORATION"
+										"text": "SYSTECH CORP."
+									}
+								]
+							}
+						},
+						{
+							"ask": "Do you confirm that this is your final answer?",
+							"input": {
+								"required": true,
+								"autoadvance": false,
+								"type": "radios",
+								"options": [
+									{
+										"text": "Yes"
 									}
 								]
 							}
@@ -565,38 +605,52 @@
 				{
 					"blocks": [
 						{
-							"title": "Map 2",
-							"ask": "You are a regional regulator at the EPA responsible for making sure all waste facilities in Texas conform to government regulations. Your job is to focus on facilities that incinerate hazardous waste because there is indication that some of these facilities are underperforming. Your job is to examine the reports of each processing site to assess each company's past compliance record. Further, some communities recently have come forward indicating they feel like they are burdeded by the facility. After your examination, rank the sites whose reports you plan on reviewing first.",
+							"title": "Map Task",
+							"ask": "You are a regional regulator at the EPA responsible for making sure all waste facilities in Texas conform to government regulations. Your job is to analyze the facilities handling waste because there is indication that some of these facilities are underperforming. Your job is to examine each processing site to assess each company's impact on the surrounding environment. After your examination, rank the sites from most likely to least likely to have a negative impact on the environment, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
 									{
-										"text": "AMLON RESOURCES C/O DUATHERM, INC."
+										"text": "AMLON INC."
 									},
 									{
-										"text": "CLEAN HARBORS, INC."
+										"text": "CLEAN HARBORS INC."
 									},
 									{
-										"text": "EURECAT U.S. INC."
+										"text": "EURECAT INC."
 									},
 									{
 										"text": "SAFETY-KLEEN"
 									},
 									{
-										"text": "SET ENVIRONMENTAL INC."
+										"text": "SET INC."
 									},
 									{
-										"text": "U.S. ECOLOGY TEXAS"
+										"text": "U.S. ECOLOGY"
 									},
 									{
-										"text": "VEOLIA ENVIRONMENTAL SERVICES"
+										"text": "VEOLIA ENVIRONMENTAL"
+									}
+								]
+							}
+						},
+						{
+							"ask": "Do you confirm that this is your final answer?",
+							"input": {
+								"required": true,
+								"autoadvance": false,
+								"type": "radios",
+								"options": [
+									{
+										"text": "Yes"
 									}
 								]
 							}
 						}
 					],
+
 					"buttons": [
 						"next"
 					]
@@ -610,33 +664,46 @@
 				{
 					"blocks": [
 						{
-							"title": "Map 3",
-							"ask": "You plan to buy a new house in your home state of Texas. This state is home to multiple hazardous waste facilities, which causes concern for you and your family. Particularly, facilities with incinerators cause concern because of emissions from the incineration process. As you decide which city and neighborhood to live in, you investigate the hazardous waste facilities and see which ones have a record of processing waste properly. Further, you examine the communities that have these waste facilities because of recent news coverage about environmental (in)justice concerns in communities that have hazardous waste facilities. Given this, rank the top 3 sites that you would not want to live nearby.",
+							"title": "Map Task",
+							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Texas for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites from most likely to least likely that you plan on contracting with, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
 									{
-										"text": "AMLON RESOURCES C/O DUATHERM, INC."
+										"text": "AMLON INC."
 									},
 									{
-										"text": "CLEAN HARBORS, INC."
+										"text": "CLEAN HARBORS INC."
 									},
 									{
-										"text": "EURECAT U.S. INC."
+										"text": "EURECAT INC."
 									},
 									{
 										"text": "SAFETY-KLEEN"
 									},
 									{
-										"text": "SET ENVIRONMENTAL INC."
+										"text": "SET INC."
 									},
 									{
-										"text": "U.S. ECOLOGY TEXAS"
+										"text": "U.S. ECOLOGY"
 									},
 									{
-										"text": "VEOLIA ENVIRONMENTAL SERVICES"
+										"text": "VEOLIA ENVIRONMENTAL"
+									}
+								]
+							}
+						},
+						{
+							"ask": "Do you confirm that this is your final answer?",
+							"input": {
+								"required": true,
+								"autoadvance": false,
+								"type": "radios",
+								"options": [
+									{
+										"text": "Yes"
 									}
 								]
 							}
@@ -655,8 +722,8 @@
 				{
 					"blocks": [
 						{
-							"title": "Map 4",
-							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Ohio to be processed. The transnational shipment is due to economic benefits and processing needs. Your waste needs to be incinerated, which limits the facilities you can send to. Your goal is to send the waste to a place you know will handle the waste properly, otherwise your business could face scrutiny. Further, you are concerned about the communities that process waste, given recent news coverage about environmental (in)justice concerns in communities that have hazardous waste facilities. Given this, rank the top 3 sites that would be good to do business with.",
+							"title": "Map Task",
+							"ask": "You are a regional regulator at the EPA responsible for making sure all waste facilities in Ohio conform to government regulations. Your job is to analyze the facilities handling waste because there is indication that some of these facilities are underperforming. Your job is to examine each processing site to assess each company's impact on the surrounding environment. After your examination, rank the sites from most likely to least likely to have a negative impact on the environment, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -666,22 +733,35 @@
 										"text": "AMG VANADIUM"
 									},
 									{
-										"text": "CLEAN HARBORS, INC."
+										"text": "CLEAN HARBORS INC."
 									},
 									{
-										"text": "CLEAN HARBORS, INC.-CLEVELAND"
+										"text": "CLEVELAND CORP."
 									},
 									{
-										"text": "ENVIRITE OF OHIO INC"
+										"text": "ENVIRITE INC."
 									},
 									{
-										"text": "ROSS INCINERATION SERVICES, INC."
+										"text": "ROSS INCINERATION INC."
 									},
 									{
-										"text": "SPRING GROVE RESOURCE RECOVERY INC."
+										"text": "SPRING GROVE INC."
 									},
 									{
-										"text": "SYSTECH CORPORATION"
+										"text": "SYSTECH CORP."
+									}
+								]
+							}
+						},
+						{
+							"ask": "Do you confirm that this is your final answer?",
+							"input": {
+								"required": true,
+								"autoadvance": false,
+								"type": "radios",
+								"options": [
+									{
+										"text": "Yes"
 									}
 								]
 							}
@@ -700,8 +780,8 @@
 				{
 					"blocks": [
 						{
-							"title": "Map 5",
-							"ask": "You are a regulator at the EPA. Because of the region you work in, you are responsible for making sure all waste facilities in Ohio follow government regulations properly. Your task for the week is to focus on facilities that incinerate hazardous waste, which limits the facilities you work with for the week, because there is indication that some of these facilities are underperforming. Your job is to examine previous reports to understand each company’s past compliance record, as well as examine public concerns about the facilities in their respective communities. Recently, community members have come forward indicating they feel like they are burdened by the facility. After your examination, rank the top 3 sites that need to be monitored more closely.",
+							"title": "Map Task",
+							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Ohio for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites from most likely to least likely that you plan on contracting with, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -711,22 +791,35 @@
 										"text": "AMG VANADIUM"
 									},
 									{
-										"text": "CLEAN HARBORS, INC."
+										"text": "CLEAN HARBORS INC."
 									},
 									{
-										"text": "CLEAN HARBORS, INC.-CLEVELAND"
+										"text": "CLEVELAND CORP."
 									},
 									{
-										"text": "ENVIRITE OF OHIO INC"
+										"text": "ENVIRITE INC."
 									},
 									{
-										"text": "ROSS INCINERATION SERVICES, INC."
+										"text": "ROSS INCINERATION INC."
 									},
 									{
-										"text": "SPRING GROVE RESOURCE RECOVERY INC."
+										"text": "SPRING GROVE INC."
 									},
 									{
-										"text": "SYSTECH CORPORATION"
+										"text": "SYSTECH CORP."
+									}
+								]
+							}
+						},
+						{
+							"ask": "Do you confirm that this is your final answer?",
+							"input": {
+								"required": true,
+								"autoadvance": false,
+								"type": "radios",
+								"options": [
+									{
+										"text": "Yes"
 									}
 								]
 							}
@@ -745,37 +838,50 @@
 				{
 					"blocks": [
 						{
-							"title": "Map 6",
-							"ask": "You plan to buy a new house in your home state of Texas. This state is home to multiple hazardous waste facilities, which causes concern for you and your family. Particularly, facilities with incinerators cause concern because of emissions from the incineration process. As you decide which city and neighborhood to live in, you investigate the hazardous waste facilities and see which ones have a record of processing waste properly. Further, you examine the communities that have these waste facilities because of recent news coverage about environmental (in)justice concerns in communities that have hazardous waste facilities. Given this, rank the top 3 sites that you would not want to live nearby.",
+							"title": "Map Task",
+							"ask": "You are a regional regulator at the EPA responsible for making sure all waste facilities in Texas conform to government regulations. Your job is to analyze the facilities handling waste because there is indication that some of these facilities are underperforming. Your job is to examine each processing site to assess each company's impact on the surrounding environment. After your examination, rank the sites from most likely to least likely to have a negative impact on the environment, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
 									{
-										"text": "AMLON RESOURCES C/O DUATHERM, INC."
+										"text": "AMLON INC."
 									},
 									{
-										"text": "CLEAN HARBORS, INC."
+										"text": "CLEAN HARBORS INC."
 									},
 									{
-										"text": "EURECAT U.S. INC."
+										"text": "EURECAT INC."
 									},
 									{
 										"text": "SAFETY-KLEEN"
 									},
 									{
-										"text": "SET ENVIRONMENTAL INC."
+										"text": "SET INC."
 									},
 									{
-										"text": "U.S. ECOLOGY TEXAS"
+										"text": "U.S. ECOLOGY"
 									},
 									{
-										"text": "VEOLIA ENVIRONMENTAL SERVICES"
+										"text": "VEOLIA ENVIRONMENTAL"
 									}
 								]
 							}
-						}
+						},
+							{
+								"ask": "Do you confirm that this is your final answer?",
+								"input": {
+									"required": true,
+									"autoadvance": false,
+									"type": "radios",
+									"options": [
+										{
+											"text": "Yes"
+										}
+									]
+								}
+							}
 						],
 					"buttons": [
 						"next"
@@ -790,33 +896,46 @@
 				{
 					"blocks": [
 						{
-							"title": "Map 7",
-							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Texas to be processed. The transnational shipment is due to economic benefits and processing needs. Your waste needs to be incinerated, which limits the facilities you can send to. Your goal is to send the waste to a place you know will handle the waste properly, otherwise your business could face scrutiny. Further, you are concerned about the communities that process waste, given recent news coverage about environmental (in)justice concerns in communities that have hazardous waste facilities. Given this, rank the top 3 sites that would be good to do business with.",
+							"title": "Map Task",
+							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Texas for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites from most likely to least likely that you plan on contracting with, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
 								"type": "rank",
 								"items": [
 									{
-										"text": "AMLON RESOURCES C/O DUATHERM, INC."
+										"text": "AMLON INC."
 									},
 									{
-										"text": "CLEAN HARBORS, INC."
+										"text": "CLEAN HARBORS INC."
 									},
 									{
-										"text": "EURECAT U.S. INC."
+										"text": "EURECAT INC."
 									},
 									{
 										"text": "SAFETY-KLEEN"
 									},
 									{
-										"text": "SET ENVIRONMENTAL INC."
+										"text": "SET INC."
 									},
 									{
-										"text": "U.S. ECOLOGY TEXAS"
+										"text": "U.S. ECOLOGY"
 									},
 									{
-										"text": "VEOLIA ENVIRONMENTAL SERVICES"
+										"text": "VEOLIA ENVIRONMENTAL"
+									}
+								]
+							}
+						},
+						{
+							"ask": "Do you confirm that this is your final answer?",
+							"input": {
+								"required": true,
+								"autoadvance": false,
+								"type": "radios",
+								"options": [
+									{
+										"text": "Yes"
 									}
 								]
 							}
@@ -835,8 +954,8 @@
 				{
 					"blocks": [
 						{
-							"title": "Map 8",
-							"ask": "You are a regulator at the EPA. Because of the region you work in, you are responsible for making sure all waste facilities in Ohio follow government regulations properly. Your task for the week is to focus on facilities that incinerate hazardous waste, which limits the facilities you work with for the week, because there is indication that some of these facilities are underperforming. Your job is to examine previous reports to understand each company’s past compliance record, as well as examine public concerns about the facilities in their respective communities. Recently, community members have come forward indicating they feel like they are burdened by the facility. After your examination, rank the top 3 sites that need to be monitored more closely.",
+							"title": "Map Task",
+							"ask": "You are a regional regulator at the EPA responsible for making sure all waste facilities in Ohio conform to government regulations. Your job is to analyze the facilities handling waste because there is indication that some of these facilities are underperforming. Your job is to examine each processing site to assess each company's impact on the surrounding environment. After your examination, rank the sites from most likely to least likely to have a negative impact on the environment, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -846,22 +965,35 @@
 										"text": "AMG VANADIUM"
 									},
 									{
-										"text": "CLEAN HARBORS, INC."
+										"text": "CLEAN HARBORS INC."
 									},
 									{
-										"text": "CLEAN HARBORS, INC.-CLEVELAND"
+										"text": "CLEVELAND CORP."
 									},
 									{
-										"text": "ENVIRITE OF OHIO INC"
+										"text": "ENVIRITE INC."
 									},
 									{
-										"text": "ROSS INCINERATION SERVICES, INC."
+										"text": "ROSS INCINERATION INC."
 									},
 									{
-										"text": "SPRING GROVE RESOURCE RECOVERY INC."
+										"text": "SPRING GROVE INC."
 									},
 									{
-										"text": "SYSTECH CORPORATION"
+										"text": "SYSTECH CORP."
+									}
+								]
+							}
+						},
+						{
+							"ask": "Do you confirm that this is your final answer?",
+							"input": {
+								"required": true,
+								"autoadvance": false,
+								"type": "radios",
+								"options": [
+									{
+										"text": "Yes"
 									}
 								]
 							}
