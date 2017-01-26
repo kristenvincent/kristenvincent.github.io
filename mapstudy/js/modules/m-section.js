@@ -1981,9 +1981,10 @@ var LeafletMap = Backbone.View.extend({
 			leafletDataLayer.showOnLegend = techniqueModel.get('showOnLegend');
 
 			var mapZoom = map.getZoom();
-
 			//render immediately by default
-			dataLayerModel.attributes.renderOnLoad = dataLayerModel.attributes.renderOnLoad || true;
+			if (!dataLayerModel.attributes.hasOwnProperty('renderOnLoad')){
+				dataLayerModel.attributes.renderOnLoad = true;
+			};
 			if (i==0 && dataLayerModel.get('renderOnLoad')){
 				leafletDataLayer.show = true;
 				if (mapZoom > overlayOptions.minZoom && mapZoom < overlayOptions.maxZoom){
@@ -2379,10 +2380,12 @@ var LeafletMap = Backbone.View.extend({
 			var OverlayControl = leafletView.CustomControl('overlay', 'bottomleft');
 			var overlayControl = new OverlayControl();
 			map.addControl(overlayControl);
-
 			//add to overlay control
 			leafletView.once('dataLayersDone', function(){
 				_.each(leafletView.model.get('leafletDataLayers'), function(dataLayer){
+					if (_.indexOf(leafletView.model.get('interactions').overlay.dataLayers, dataLayer.layerName) == -1){
+						return false;
+					};
 					var layerId = dataLayer._leaflet_id;
 					var overlayControlModel = new OverlayControlModel({
 						layerName: dataLayer.layerName,
@@ -2549,6 +2552,9 @@ var LeafletMap = Backbone.View.extend({
 				$('#search-results-box').empty();
 				var allFeatures = [];
 				_.each(leafletView.model.get('leafletDataLayers'), function(layer){
+					if (_.indexOf(leafletView.model.get('interactions').search.dataLayers, layer.layerName) == -1){
+						return false;
+					};
 					if (layer.techniqueType != 'heat' && map.hasLayer(layer)){
 						allFeatures = _.union(allFeatures, layer.toGeoJSON().features);
 					};

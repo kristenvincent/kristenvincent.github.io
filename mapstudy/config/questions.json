@@ -24,7 +24,7 @@
 				{
 					"blocks": [
 						{
-							"ask": "<strong>Thank you for agreeing to participate!</strong></br></br>Digital interactive maps are now a part of our everyday lives. This research investigates how such interactive maps can or cannot help us make choices about the management of goods and materials in the landscape.</br></br> Specifically, the following survey uses the regulation and trade of hazardous waste as a case study. Hazardous waste flows among Canada, Mexico, and the United States daily, with many management decisions needed to ensure safe transport and disposal. Thus, our choices about how to regulate hazardous waste require consideration of a number of spatial criteria and have a number of potential solutions. In this study, you will be asked to make two different decisions about the hazardous waste trade using two different interactive maps.</br></br><strong><u>INSTRUCTIONS:</u></strong></br></br>In the map survey, you will be presented with two scenarios common to the regulation and trade of hazardous waste. For each scenario, you will make use of an interactive map to arrive at a decision you feel is optimal. After each decision, you will be asked to assess your confidence in the solution at which you arrived and to rate the difficulty you had in making this choice. Between the pair of scenarios, you will complete a set of map reading tasks with a static map to refresh your train of thought. </br></br>Before your task begins, you will be given an example map to work with. After your decision tasks are completed, you will be asked a series of background questions. The entire survey should take about 30 minutes. You will be compensated after you complete all map tasks and a background survey and submit the responses at the end.<br><br>Note: Do no close your browser at any time during the survey unless you wish to exit without compensation.</br></br><strong><u>ELIGIBILITY:</u></strong></br></br>Before beginning, please once again review your eligibility for participating in the study. These restrictions greatly impact your responses:</br><ul><li>You must be 18 years of age or older.</li><li>English must be your first language.</li><li>You must currently be living in the United States, but not in the states of Ohio or Texas, the location of the pair of scenarios. </li><li>You must complete the survey on a laptop or desktop computer (i.e. not mobile). </li></ul></br></br><strong>Select 'Next' to confirm that you have read the instructions and confirm that you are eligible and ready to go to an example.</strong>"
+							"ask": "<strong>Thank you for agreeing to participate!</strong></br></br>Digital interactive maps are now a part of our everyday lives. This research investigates how such interactive maps can or cannot help us make choices about the management of goods and materials in the landscape.</br></br> Specifically, the following survey uses the regulation and trade of hazardous waste as a case study. Hazardous waste flows among Canada, Mexico, and the United States daily, with many management decisions needed to ensure safe transport and disposal. Thus, our choices about how to regulate hazardous waste require consideration of a number of spatial criteria and have a number of potential solutions. In this study, you will be asked to make two different decisions about the hazardous waste trade using two different interactive maps.</br></br><strong><u>INSTRUCTIONS:</u></strong></br></br>In the map survey, you will be presented with two scenarios common to the regulation and trade of hazardous waste. For each scenario, you will make use of an interactive map to arrive at a decision you feel is optimal. After each decision, you will be asked to assess your confidence in the solution at which you arrived and to rate the difficulty you had in making this choice. Between the pair of scenarios, you will complete a set of map reading tasks with a static map to refresh your train of thought. </br></br>Before your task begins, you will be given an example map to work with. After your decision tasks are completed, you will be asked a series of background questions. The entire survey should take about 30 minutes. You will be compensated after you complete all map tasks and a background survey and submit the responses at the end.<br><br>Note: Do not refresh or close your browser at any time during the survey unless you wish to exit without compensation.</br></br><strong><u>ELIGIBILITY:</u></strong></br></br>Before beginning, please once again review your eligibility for participating in the study. These restrictions greatly impact your responses:</br><ul><li>You must be 18 years of age or older.</li><li>English must be your first language.</li><li>You must currently be living in the United States, but not in the states of Ohio or Texas, the location of the pair of scenarios. </li><li>You must complete the survey on a laptop or desktop computer (i.e. not mobile). </li></ul></br></br><strong>Select 'Next' to confirm that you have read the instructions and confirm that you are eligible and ready to go to an example.</strong>"
 						}
 					],
 					"buttons": [
@@ -44,7 +44,7 @@
 							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map, you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into and out of the map using your mouse wheel, trackpad, or zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question."
 						},
 						{
-							"ask": "Rank the sites that imported the most solid hazardous waste from highest to lowest by dragging the names above and below each other:",
+							"ask": "Rank the sites from greatest to least environmental impact by dragging the names above and below each other:",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -63,7 +63,7 @@
 							}
 						},
 						{
-							"ask": "<strong>By selecting next you agree that you understand the interface and questions and are ready to begin the study.</strong>"
+							"ask": "<strong>By selecting next you agree that you understand the interface and questions and are ready to begin the study. Please note that a timer will begin one you click next.</strong>"
 						}
 					],
 					"buttons": [
@@ -80,10 +80,10 @@
 					"blocks": [
 						{
 							"title": "Example Map",
-							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map, you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into and out of the map using your mouse wheel, trackpad, or zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li><li>Overlay text using the checkbox to add labels of each site to the map.</li><li>Filter using the slider bar to only view sites that process a specified amount of hazardous waste.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question."
+							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map, you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into and out of the map using your mouse wheel, trackpad, or zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li><li>Overlay text and air quality data by using the checkbox on the left side of the map.</li><li>Filter using the slider bar to limit the sites shown based on kilograms of waste imported or number of air quality violations per capita.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question."
 						},
 						{
-							"ask": "Rank the sites that imported the most solid hazardous waste from highest to lowest by dragging the names above and below each other:",
+							"ask": "Rank the sites from greatest to least environmental impact by dragging the names above and below each other:",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -102,7 +102,7 @@
 							}
 						},
 						{
-							"ask": "<strong>By selecting next you agree that you understand the interface and questions and are ready to begin the study.</strong>"
+							"ask": "<strong>By selecting next you agree that you understand the interface and questions and are ready to begin the study. Please note that a timer will begin once you click next.</strong>"
 						}
 					],
 					"buttons": [
@@ -543,12 +543,15 @@
 		{
 			"page": 6,
 			"fullpage": false,
+			"timer": {
+				"persist": true
+			},
 			"sets": [
 				{
 					"blocks": [
 						{
 							"title": "Map Task",
-							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Ohio for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites from most likely to least likely that you plan on contracting with, using information in the interactive map.",
+							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Ohio for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites that you plan on contracting with from most likely to least likely, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -577,19 +580,6 @@
 									}
 								]
 							}
-						},
-						{
-							"ask": "Do you confirm that this is your final answer?",
-							"input": {
-								"required": true,
-								"autoadvance": false,
-								"type": "radios",
-								"options": [
-									{
-										"text": "Yes"
-									}
-								]
-							}
 						}
 					],
 					"buttons": [
@@ -601,6 +591,12 @@
 		{
 			"page": 7,
 			"fullpage": false,
+			"timer": {
+				"remove": true
+			},
+			"timer": {
+				"persist": true
+			},
 			"sets": [
 				{
 					"blocks": [
@@ -632,19 +628,6 @@
 									},
 									{
 										"text": "VEOLIA ENVIRONMENTAL"
-									}
-								]
-							}
-						},
-						{
-							"ask": "Do you confirm that this is your final answer?",
-							"input": {
-								"required": true,
-								"autoadvance": false,
-								"type": "radios",
-								"options": [
-									{
-										"text": "Yes"
 									}
 								]
 							}
@@ -660,12 +643,18 @@
 		{
 			"page": 8,
 			"fullpage": false,
+			"timer": {
+				"remove": true
+			},
+			"timer": {
+				"persist": true
+			},
 			"sets": [
 				{
 					"blocks": [
 						{
 							"title": "Map Task",
-							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Texas for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites from most likely to least likely that you plan on contracting with, using information in the interactive map.",
+							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Texas for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites that you plan on contracting with from most likely to least likely, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -694,19 +683,6 @@
 									}
 								]
 							}
-						},
-						{
-							"ask": "Do you confirm that this is your final answer?",
-							"input": {
-								"required": true,
-								"autoadvance": false,
-								"type": "radios",
-								"options": [
-									{
-										"text": "Yes"
-									}
-								]
-							}
 						}
 					],
 					"buttons": [
@@ -718,6 +694,12 @@
 		{
 			"page": 9,
 			"fullpage": false,
+			"timer": {
+				"remove": true
+			},
+			"timer": {
+				"persist": true
+			},
 			"sets": [
 				{
 					"blocks": [
@@ -752,19 +734,6 @@
 									}
 								]
 							}
-						},
-						{
-							"ask": "Do you confirm that this is your final answer?",
-							"input": {
-								"required": true,
-								"autoadvance": false,
-								"type": "radios",
-								"options": [
-									{
-										"text": "Yes"
-									}
-								]
-							}
 						}
 					],
 					"buttons": [
@@ -776,12 +745,18 @@
 		{
 			"page": 10,
 			"fullpage": false,
+			"timer": {
+				"remove": true
+			},
+			"timer": {
+				"persist": true
+			},
 			"sets": [
 				{
 					"blocks": [
 						{
 							"title": "Map Task",
-							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Ohio for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites from most likely to least likely that you plan on contracting with, using information in the interactive map.",
+							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Ohio for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites that you plan on contracting with from most likely to least likely, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -810,19 +785,6 @@
 									}
 								]
 							}
-						},
-						{
-							"ask": "Do you confirm that this is your final answer?",
-							"input": {
-								"required": true,
-								"autoadvance": false,
-								"type": "radios",
-								"options": [
-									{
-										"text": "Yes"
-									}
-								]
-							}
 						}
 					],
 					"buttons": [
@@ -834,6 +796,12 @@
 		{
 			"page": 11,
 			"fullpage": false,
+			"timer": {
+				"remove": true
+			},
+			"timer": {
+				"persist": true
+			},
 			"sets": [
 				{
 					"blocks": [
@@ -868,20 +836,7 @@
 									}
 								]
 							}
-						},
-							{
-								"ask": "Do you confirm that this is your final answer?",
-								"input": {
-									"required": true,
-									"autoadvance": false,
-									"type": "radios",
-									"options": [
-										{
-											"text": "Yes"
-										}
-									]
-								}
-							}
+						}
 						],
 					"buttons": [
 						"next"
@@ -892,12 +847,18 @@
 		{
 			"page": 12,
 			"fullpage": false,
+			"timer": {
+				"remove": true
+			},
+			"timer": {
+				"persist": true
+			},
 			"sets": [
 				{
 					"blocks": [
 						{
 							"title": "Map Task",
-							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Texas for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites from most likely to least likely that you plan on contracting with, using information in the interactive map.",
+							"ask": "You are the manager of a newly opened Canadian firm looking to ship hazardous waste to Texas for processing. Your decision to ship waste internationally is due to economic benefits. Your goal is to send the waste to a place you know will handle the waste properly without harming the citizens living nearby, otherwise your new business could face scrutiny. Given this, rank the sites that you plan on contracting with from most likely to least likely, using information in the interactive map.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -926,19 +887,6 @@
 									}
 								]
 							}
-						},
-						{
-							"ask": "Do you confirm that this is your final answer?",
-							"input": {
-								"required": true,
-								"autoadvance": false,
-								"type": "radios",
-								"options": [
-									{
-										"text": "Yes"
-									}
-								]
-							}
 						}
 					],
 					"buttons": [
@@ -950,6 +898,12 @@
 		{
 			"page": 13,
 			"fullpage": false,
+			"timer": {
+				"remove": true
+			},
+			"timer": {
+				"persist": true
+			},
 			"sets": [
 				{
 					"blocks": [
@@ -984,19 +938,6 @@
 									}
 								]
 							}
-						},
-						{
-							"ask": "Do you confirm that this is your final answer?",
-							"input": {
-								"required": true,
-								"autoadvance": false,
-								"type": "radios",
-								"options": [
-									{
-										"text": "Yes"
-									}
-								]
-							}
 						}
 					],
 					"buttons": [
@@ -1008,6 +949,9 @@
 		{
 			"page": 14,
 			"fullpage": true,
+			"timer": {
+				"remove": true
+			},
 				"sets": [
 					{
 						"blocks": [

@@ -40,10 +40,10 @@
 					{
 						"roundTo": 0,
 						"name": "Example Map",
-						"source": "data/ExampleMapDataCopy.geojson",
+						"source": "data/ExampleMapData.geojson",
 						"expressedAttribute": "Kilograms",
 						"displayAttributes": [
-							"Company", "Kilograms"
+							"Company", "Kilograms", "Air Quality Watches"
 						],
 						"layerOptions": {
 					"fillOpacity": 0.7,
@@ -127,40 +127,36 @@
 					],
 					"dataLayers": [
 						{
-							"name": "Violations",
-							"source": "data/ExampleMapData.geojson",
-							"roundTo": 0,
-							"expressedAttribute": "Violations",
-							"displayAttributes": [
-								"Violations"
-							],
-							"layerOptions": {
-						"fillOpacity": 0.7,
-						"color": "purple",
-						"weight": 0.5,
-						"opacity": 0.5
-					},
-							"renderOnLoad": true,
-											"techniques": [
-												{
-													"type": "proportional symbol",
-														"classification": "quantile",
-														"classes": [
-															7.8,
-															11.1,
-															15.7,
-															22.2,
-															31.4
-														]
-												}
-											]},
+				"roundTo": 0,
+				"name": "Air Quality Watches Per Capita",
+				"source": "data/exampleair.geojson",
+				"expressedAttribute": "Air Quality Watches",
+				"displayAttributes": [
+					"Air Quality Watches"
+				],
+				"layerOptions": {
+			"fillOpacity": 0.8,
+			"color": "black",
+			"weight": 0.5,
+			"opacity": 1,
+			"minZoom": 5,
+			"maxZoom": 10
+			},
+				"renderOnLoad": false,
+				"techniques": [
+					{
+						"type": "choropleth",
+						"classification": "quantile",
+						"classes": "BuGn.5"
+					}
+				]},
 						{
 							"roundTo": 0,
 							"name": "Kilogram Data",
 							"source": "data/ExampleMapData.geojson",
 							"expressedAttribute": "Kilograms",
 							"displayAttributes": [
-								"Kilograms", "Violations"
+								"Company", "Kilograms", "Air Quality Watches"
 							],
 							"renderOnLoad": true,
 							"layerOptions": {
@@ -182,6 +178,7 @@
 							]
 						},
 						{
+						"roundTo": 0,
 						"name": "Importing Company",
 						"source": "data/ExampleMapData.geojson",
 						"expressedAttribute": "Kilograms",
@@ -227,7 +224,9 @@
 						"overlay": {
 							"logging": true,
 							"toggle": false,
-							"dataLayers": []
+							"dataLayers": [
+								"Air Quality Watches Per Capita", "Importing Company"
+							]
 						},
 						"zoom": {
 							"logging": true,
@@ -290,7 +289,7 @@
 									"source": "data/Ohio.geojson",
 									"expressedAttribute": "Kilograms",
 									"displayAttributes": [
-										"Company",  "Kilograms", "Violations", "Air Quality Watches"
+										"Company",  "Kilograms", "Violations per Capita", "Air Quality Watches"
 									],
 									"layerOptions": {
 								"fillOpacity": 0.7,
@@ -379,7 +378,7 @@
 											"roundTo": 0,
 											"expressedAttribute": "Kilograms",
 											"displayAttributes": [
-												"Company", "Kilograms", "Violations", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
+												"Company", "Kilograms", "Violations per Capita", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
 											],
 											"layerOptions": {
 										"fillOpacity": 0.7,
@@ -470,7 +469,7 @@
 											"roundTo": 0,
 											"expressedAttribute": "Kilograms",
 											"displayAttributes": [
-												"Company", "Kilograms", "Violations", "Air Quality Watches"
+												"Company", "Kilograms", "Violations per Capita", "Air Quality Watches"
 											],
 											"layerOptions": {
 										"fillOpacity": 0.7,
@@ -562,7 +561,7 @@
 												"source": "data/Ohio.geojson",
 												"expressedAttribute": "Kilograms",
 												"displayAttributes": [
-													"Company", "Kilograms", "Violations", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
+													"Company", "Kilograms", "Violations per Capita", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
 												],
 												"layerOptions": {
 											"fillOpacity": 0.7,
@@ -647,36 +646,30 @@
 										"dataLayers": [
 											{
 												"name": "Violations",
-												"source": "data/Ohio.geojson",
+												"source": "data/violationsoh.geojson",
 												"roundTo": 0,
-												"expressedAttribute": "Violations",
+												"expressedAttribute": "Violations per Capita",
 												"displayAttributes": [
-													"Violations"
+													"Violations per Capita"
 												],
 												"layerOptions": {
-											"fillOpacity": 0.7,
-											"color": "purple",
+											"fillOpacity": 0.8,
+											"color": "black",
 											"weight": 0.5,
-											"opacity": 0.5
+											"opacity": 1
 										},
-												"renderOnLoad": true,
-																"techniques": [
-																	{
-																		"type": "proportional symbol",
-																			"classification": "quantile",
-																			"classes": [
-																				7.8,
-																				11.1,
-																				15.7,
-																				22.2,
-																				31.4
-																			]
-																	}
-																]},
+												"renderOnLoad": false,
+												"techniques": [
+													{
+														"type": "choropleth",
+														"classification": "quantile",
+														"classes": "BuGn.5"
+													}
+												]},
 											{
 									"roundTo": 0,
-									"name": "Air Quality",
-									"source": "data/ohioair.geojson",
+									"name": "Air Quality Watches Per Capita",
+									"source": "data/ohioair1.geojson",
 									"expressedAttribute": "Air Quality Watches",
 									"displayAttributes": [
 										"Air Quality Watches"
@@ -689,12 +682,12 @@
 								"minZoom": 6,
 								"maxZoom": 10
 								},
-									"renderOnLoad": true,
+									"renderOnLoad": false,
 									"techniques": [
 										{
 											"type": "choropleth",
-											"classification": "equal interval",
-											"classes": "BuGn.3"
+											"classification": "quantile",
+											"classes": "BuGn.5"
 										}
 									]},
 											{
@@ -703,7 +696,7 @@
 												"roundTo": 0,
 												"expressedAttribute": "Kilograms",
 												"displayAttributes": [
-													"Company","Kilograms", "Violations", "Air Quality Watches"
+													"Company","Kilograms", "Violations per Capita", "Air Quality Watches"
 												],
 												"layerOptions": {
 											"fillOpacity": 0.7,
@@ -780,7 +773,7 @@
 												"logging": true,
 												"toggle": false,
 												"dataLayers": [
-													"Company"
+													"Violations", "Air Quality Watches Per Capita", "Company"
 												]
 											},
 											"zoom": {
@@ -828,36 +821,30 @@
 													"dataLayers": [
 														{
 															"name": "Violations",
-															"source": "data/Texas.geojson",
+															"source": "data/violationstx.geojson",
 															"roundTo": 0,
-															"expressedAttribute": "Violations",
+															"expressedAttribute": "Violations per Capita",
 															"displayAttributes": [
-																"Violations"
+																"Violations per Capita"
 															],
 															"layerOptions": {
-														"fillOpacity": 0.7,
-														"color": "purple",
+														"fillOpacity": 0.8,
+														"color": "black",
 														"weight": 0.5,
-														"opacity": 0.5
+														"opacity": 1
 													},
-															"renderOnLoad": true,
-																			"techniques": [
-																				{
-																					"type": "proportional symbol",
-																						"classification": "quantile",
-																						"classes": [
-																							7.8,
-																							11.1,
-																							15.7,
-																							22.2,
-																							31.4
-																						]
-																				}
-																			]},
+															"renderOnLoad": false,
+															"techniques": [
+																{
+																	"type": "choropleth",
+																	"classification": "quantile",
+																	"classes": "BuGn.5"
+																}
+															]},
 														{
 												"roundTo": 0,
-												"name": "Air Quality",
-												"source": "data/texascounties.geojson",
+												"name": "Air Quality Watches Per Capita",
+												"source": "data/texascounties1.geojson",
 												"expressedAttribute": "Air Quality Watches",
 												"displayAttributes": [
 													"Air Quality Watches"
@@ -870,12 +857,12 @@
 											"minZoom": 5,
 											"maxZoom": 10
 											},
-												"renderOnLoad": true,
+												"renderOnLoad": false,
 												"techniques": [
 													{
 														"type": "choropleth",
-														"classification": "equal interval",
-														"classes": "BuGn.3"
+														"classification": "quantile",
+														"classes": "BuGn.5"
 													}
 												]},
 														{
@@ -894,21 +881,21 @@
 											"minZoom": 5,
 											"maxZoom": 10
 											},
-												"renderOnLoad": true,
+												"renderOnLoad": false,
 												"techniques": [
 													{
 														"type": "choropleth",
-														"classification": "equal interval",
-														"classes": "BuGn.3"
+														"classification": "quantile",
+														"classes": "BuGn.5"
 													}
 												]},
 														{
 												"roundTo": 0,
 												"name": "Soil Penetration",
-												"source": "data/texasperm.geojson",
-												"expressedAttribute": "Permeability",
+												"source": "data/txsoil.geojson",
+												"expressedAttribute": "Soil",
 												"displayAttributes": [
-													"Permeability"
+													"Soil"
 												],
 												"layerOptions": {
 											"fillOpacity": 0.8,
@@ -918,12 +905,12 @@
 											"minZoom": 5,
 											"maxZoom": 10
 											},
-												"renderOnLoad": true,
+												"renderOnLoad": false,
 												"techniques": [
 													{
 														"type": "choropleth",
-														"classification": "equal interval",
-														"classes": "BuGn.3"
+														"classification": "quantile",
+														"classes": "BuGn.5"
 													}
 												]},
 														{
@@ -932,7 +919,7 @@
 															"roundTo": 0,
 															"expressedAttribute": "Kilograms",
 															"displayAttributes": [
-																"Company","Kilograms", "Violations", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
+																"Company","Kilograms", "Violations per Capita", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
 															],
 															"layerOptions": {
 														"fillOpacity": 0.7,
@@ -1009,7 +996,7 @@
 															"logging": true,
 															"toggle": false,
 															"dataLayers": [
-																"Company"
+																"Violations", "Percent in Poverty", "Air Quality Watches Per Capita", "Soil Penetration", "Company"
 															]
 														},
 														"zoom": {
@@ -1057,36 +1044,30 @@
 												"dataLayers": [
 													{
 														"name": "Violations",
-														"source": "data/Texas.geojson",
+														"source": "data/violationstx.geojson",
 														"roundTo": 0,
-														"expressedAttribute": "Violations",
+														"expressedAttribute": "Violations per Capita",
 														"displayAttributes": [
-															"Violations"
+															"Violations per Capita"
 														],
 														"layerOptions": {
-													"fillOpacity": 0.7,
-													"color": "purple",
+													"fillOpacity": 0.8,
+													"color": "black",
 													"weight": 0.5,
-													"opacity": 0.5
+													"opacity": 1
 												},
-														"renderOnLoad": true,
-																		"techniques": [
-																			{
-																				"type": "proportional symbol",
-																					"classification": "quantile",
-																					"classes": [
-																						7.8,
-																						11.1,
-																						15.7,
-																						22.2,
-																						31.4
-																					]
-																			}
-																		]},
+														"renderOnLoad": false,
+														"techniques": [
+															{
+																"type": "choropleth",
+																"classification": "quantile",
+																"classes": "BuGn.5"
+															}
+														]},
 													{
 											"roundTo": 0,
-											"name": "Air Quality",
-											"source": "data/texascounties.geojson",
+											"name": "Air Quality Watches Per Capita",
+											"source": "data/texascounties1.geojson",
 											"expressedAttribute": "Air Quality Watches",
 											"displayAttributes": [
 												"Air Quality Watches"
@@ -1099,12 +1080,12 @@
 										"minZoom": 5,
 										"maxZoom": 10
 										},
-											"renderOnLoad": true,
+											"renderOnLoad": false,
 											"techniques": [
 												{
 													"type": "choropleth",
-													"classification": "equal interval",
-													"classes": "BuGn.3"
+													"classification": "quantile",
+													"classes": "BuGn.5"
 												}
 											]},
 													{
@@ -1113,7 +1094,7 @@
 														"roundTo": 0,
 														"expressedAttribute": "Kilograms",
 														"displayAttributes": [
-															"Company", "Kilograms", "Violations", "Air Quality Watches"
+															"Company", "Kilograms", "Violations per Capita", "Air Quality Watches"
 														],
 														"layerOptions": {
 													"fillOpacity": 0.7,
@@ -1190,7 +1171,7 @@
 														"logging": true,
 														"toggle": false,
 														"dataLayers": [
-															"Company"
+															"Violations", "Air Quality Watches Per Capita", "Company"
 														]
 													},
 													"zoom": {
@@ -1238,36 +1219,30 @@
 															"dataLayers": [
 																{
 																	"name": "Violations",
-																	"source": "data/Ohio.geojson",
+																	"source": "data/violationsoh.geojson",
 																	"roundTo": 0,
-																	"expressedAttribute": "Violations",
+																	"expressedAttribute": "Violations per Capita",
 																	"displayAttributes": [
-																		"Violations"
+																		"Violations per Capita"
 																	],
 																	"layerOptions": {
-																"fillOpacity": 0.7,
-																"color": "purple",
+																"fillOpacity": 0.8,
+																"color": "black",
 																"weight": 0.5,
-																"opacity": 0.5
+																"opacity": 1
 															},
-																	"renderOnLoad": true,
-																					"techniques": [
-																						{
-																							"type": "proportional symbol",
-																								"classification": "quantile",
-																								"classes": [
-																									7.8,
-																									11.1,
-																									15.7,
-																									22.2,
-																									31.4
-																								]
-																						}
-																					]},
+																	"renderOnLoad": false,
+																	"techniques": [
+																		{
+																			"type": "choropleth",
+																			"classification": "quantile",
+																			"classes": "BuGn.5"
+																		}
+																	]},
 																{
 														"roundTo": 0,
-														"name": "Air Quality",
-														"source": "data/ohioair.geojson",
+														"name": "Air Quality Watches Per Capita",
+														"source": "data/ohioair1.geojson",
 														"expressedAttribute": "Air Quality Watches",
 														"displayAttributes": [
 															"Air Quality Watches"
@@ -1280,12 +1255,12 @@
 													"minZoom": 6,
 													"maxZoom": 10
 													},
-														"renderOnLoad": true,
+														"renderOnLoad": false,
 														"techniques": [
 															{
 																"type": "choropleth",
-																"classification": "equal interval",
-																"classes": "BuGn.3"
+																"classification": "quantile",
+																"classes": "BuGn.5"
 															}
 														]},
 																{
@@ -1304,21 +1279,21 @@
 													"minZoom": 6,
 													"maxZoom": 10
 													},
-														"renderOnLoad": true,
+														"renderOnLoad": false,
 														"techniques": [
 															{
 																"type": "choropleth",
-																"classification": "equal interval",
-																"classes": "BuGn.3"
+																"classification": "quantile",
+																"classes": "BuGn.5"
 															}
 														]},
 																{
 														"roundTo": 0,
 														"name": "Soil Penetration",
-														"source": "data/permeability.geojson",
-														"expressedAttribute": "Permeability",
+														"source": "data/ohiosoil1.geojson",
+														"expressedAttribute": "Soil",
 														"displayAttributes": [
-															"Permeability"
+															"Soil"
 														],
 														"layerOptions": {
 													"fillOpacity": 0.8,
@@ -1328,12 +1303,12 @@
 													"minZoom": 6,
 													"maxZoom": 10
 													},
-														"renderOnLoad": true,
+														"renderOnLoad": false,
 														"techniques": [
 															{
 																"type": "choropleth",
-																"classification": "equal interval",
-																"classes": "BuGn.3"
+																"classification": "quantile",
+																"classes": "BuGn.5"
 															}
 														]},
 																{
@@ -1342,7 +1317,7 @@
 																	"roundTo": 0,
 																	"expressedAttribute": "Kilograms",
 																	"displayAttributes": [
-																		"Company","Kilograms", "Violations", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
+																		"Company","Kilograms", "Violations per Capita", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
 																	],
 																	"layerOptions": {
 																"fillOpacity": 0.7,
@@ -1419,7 +1394,7 @@
 																	"logging": true,
 																	"toggle": false,
 																	"dataLayers": [
-																		"Company"
+																		"Violations", "Percent in Poverty", "Air Quality Watches Per Capita", "Soil Penetration", "Company"
 																	]
 																},
 																"zoom": {
