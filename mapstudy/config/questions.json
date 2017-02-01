@@ -40,8 +40,10 @@
 				{
 					"blocks": [
 						{
+							"image": "img/legendtest.png",
 							"title": "Example Map",
-							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map, you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into and out of the map using your mouse wheel, trackpad, or zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question."
+							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map (see example image below), you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into and out of the map using your mouse wheel, trackpad, or zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question. Again, review the legend carefully. You can activate the legend by clicking on the legend as seen here:"
+
 						},
 						{
 							"ask": "Rank the sites from greatest to least environmental impact by dragging the names above and below each other:",
@@ -79,8 +81,9 @@
 				{
 					"blocks": [
 						{
+							"image": "img/legendtest.png",
 							"title": "Example Map",
-							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map, you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into and out of the map using your mouse wheel, trackpad, or zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li><li>Overlay text and air quality data by using the checkbox on the left side of the map.</li><li>Filter using the slider bar to limit the sites shown based on kilograms of waste imported or number of air quality violations per capita.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question."
+							"ask": "The example map to the left has a similar design and interface as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing sites in the western U.S. as proportionately-sized circular symbols, with larger symbols indicating sites that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map (see example image below), you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li>Zoom into and out of the map using your mouse wheel, trackpad, or zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li>Pan by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li>Retrieve details about a site by clicking on a circular symbol.</li><li>Overlay text and air quality data by using the checkbox on the left side of the map.</li><li>Filter using the slider bar to limit the sites shown based on kilograms of waste imported or number of air quality violations per capita.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing sites and a different question, so interpret the different maps and read the different question carefully. To get a feel for the study, use the example map to answer the following example question. Again, review the legend carefully. You can activate the legend by clicking on the legend as seen here:"
 						},
 						{
 							"ask": "Rank the sites from greatest to least environmental impact by dragging the names above and below each other:",
@@ -120,17 +123,20 @@
 						{
 							"image": "img/benchmark.png",
 							"title": "Map Reading Tasks",
-							"ask": "<strong>What state has the easternmost hazardous waste facility?</strong>",
+							"ask": "<strong>How many waste facilities are in Alabama?</strong>",
 							"input": {
 								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
 									{
-										"text": "Rhode Island"
+										"text": "1"
 									},
 									{
-										"text": "South Carolina"
+										"text": "2"
+									},
+									{
+										"text": "3"
 									}
 								]
 							}
@@ -202,17 +208,17 @@
 						"resetMap": true,
 						"blocks":	[{
 							"image": "img/benchmark.png",
-							"ask": "<strong>Which state has more hazardous waste facilities?</strong>",
+							"ask": "<strong>Which state had more waste shipments?</strong>",
 							"input": {
 								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
 										{
-											"text": "California"
+											"text": "Arizona"
 										},
 										{
-											"text": "Oklahoma"
+											"text": "South Carolina"
 										}
 									],
 								"items": [
@@ -288,7 +294,7 @@
 							"resetMap": true,
 							"blocks":	[{
 							"image": "img/benchmark.png",
-							"ask": "<strong>Which state has the most hazardous waste facilities?</strong>",
+							"ask": "<strong>Which state had the most waste shipments?</strong>",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -372,7 +378,7 @@
 								"resetMap": true,
 								"blocks":	[{
 								"image": "img/benchmark.png",
-								"ask": "<strong>Where are low poverty rates and a high number of shipments highly correlated?</strong>",
+								"ask": "<strong>Which state is more likely to have imported waste from Canada?</strong>",
 								"input": {
 									"required": true,
 									"autoadvance": false,
@@ -382,7 +388,7 @@
 											"text": "Michigan"
 										},
 										{
-											"text": "Tennessee"
+											"text": "Kansas"
 										}
 									]
 								}
