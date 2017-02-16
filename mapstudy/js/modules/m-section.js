@@ -817,9 +817,9 @@ var OverlayControlModel = Backbone.Model.extend({
 	}
 });
 
-//array to keep track of radio buttons
-var radioButtons = [];
-
+//to connect radio buttons w/sliders
+var radioToSliders = [];
+var rtsCount = 0;
 //view for overlay control
 var OverlayControlView = Backbone.View.extend({
 	el: '.overlay-control-container',
@@ -829,8 +829,30 @@ var OverlayControlView = Backbone.View.extend({
 		this.$el.append(this.template(this.model.attributes));
 		//set change interaction on this child element only
 		var view = this;
+		radioToSliders[rtsCount].value = this.model.get('layerId');
+		rtsCount++;
 		this.$el.find('.layer-'+this.model.get('layerId')+' input').change(function(e){
-			view.toggleLayer($(e.target).val(), $(e.target).prop('checked'));
+
+			var targetVal = $(e.target).val();
+			var targetBool = $(e.target).prop('checked');
+
+			var rtsNum = -1;
+			for(i = 0; i < radioToSliders.length; i++){
+				if(radioToSliders[i].value == targetVal){
+					rtsNum = i;
+				}
+			}
+
+			view.toggleLayer(targetVal, targetBool);
+
+			if(rtsNum != -1 && rtsNum < radioToSliders.length-1){
+				$(".filter-row select").first().val(radioToSliders[rtsNum].trigVal).change();
+			}
+
+
+			//console.log($(e.target).val() + " " + $(e.target).prop('checked'))
+			//$(".filter-row select").first().change();
+
 		});
 	}
 });
@@ -1048,6 +1070,7 @@ var FilterSliderView = Backbone.View.extend({
 		var optionTemplate = _.template($('#filter-options-template').html()),
 			select = this.$el.find('select[name=' + this.model.get('className') + ']');
 		_.each(numericAttributes, function(attribute){
+			radioToSliders.push({trigVal:attribute});
 			select.append(optionTemplate({attribute: attribute}))
 		}, this);
 	},
@@ -1803,7 +1826,7 @@ var LeafletMap = Backbone.View.extend({
 	addLayer: function(layerId){
 		this.offLayers[layerId].show = true;
 		this.offLayers[layerId].addTo(this.map);
-		this.orderLayers();
+		//this.orderLayers();
 	},
 	removeLayer: function(layerId, maintain){
 		//mark layer as hidden only if manually hidden by user
@@ -2434,6 +2457,8 @@ var LeafletMap = Backbone.View.extend({
 					var overlayControlView = new OverlayControlView({model: overlayControlModel});
 					//toggleLayer function must be defined for leaflet view
 					overlayControlView.toggleLayer = function(layerId, addLayer){
+
+						//console.log(layerId + " " + addLayer);
 						//trigger interaction logging if toggle was not due to reexpression
 						leafletView.trigger('overlay');
 						//turn layer on/off
@@ -2442,6 +2467,7 @@ var LeafletMap = Backbone.View.extend({
 							//$('input[value='+layerId+']').prop('checked', true);
 						};
 
+						//console.log($('.overlay-control-layer'));
 						//turn other layers off
 						$('.overlay-control-layer').each(function(){
 							var thisId = $(this).attr('id').split('-')[2];
@@ -3404,6 +3430,10 @@ function config(){
 };
 
 function resetMap(){
+	radioToSliders = [];
+	rtsCount = 0;
+	userInputSliders = [];
+
 	$('#cover').show();
 	_page = _pages[_pagesi]-1;
 	//reset map and questions
