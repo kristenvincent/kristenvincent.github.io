@@ -40,13 +40,13 @@
 				{
 					"blocks": [
 						{
-							"image": "img/legendtest.png",
+
 							"title": "Example Map",
-							"ask": "The example map to the left has similar symbols and controls as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing facilities in California as proportionately-sized circular symbols, with larger symbols indicating facilities that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map (see example image below), you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li><strong>Zoom</strong> into and out of the map using your mouse wheel, double-clicking on the map, or using the zoom buttons to change the level of detail (zooming is constrained to only several scales).</li><li><strong>Pan</strong> by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li><strong>Retrieve details</strong> about a facility by clicking on a circular symbol.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing facilities and a different decision, so read the provided scenario, decision questions, and interactive maps carefully! To get a feel for the study, use the example map to answer the following example question. Again, review the legend carefully. You can activate the legend by clicking on the legend as seen here:"
+							"ask": "The example map to the left has similar symbols and controls as the maps you will use in the survey. The map depicts locations of U.S. hazardous waste processing facilities in California. <br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li><strong>Zoom</strong> into and out of the map using your mouse wheel, double-clicking on the map, or using the zoom buttons to change the level of detail (zooming is constrained to only several scales).</li><li><strong>Pan</strong> by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li><strong>Retrieve details</strong> about a facility by clicking on a circular symbol.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing facilities and a different decision, so read the provided scenario, decision questions, and interactive maps carefully! To get a feel for the study, use the example map to answer the following example question."
 
 						},
 						{
-							"ask": "<strong>Question:</strong> Rank the facilities according to their potential environmental impact by dragging the names above and below each other (1=most impact; 3=least impact).",
+							"ask": "<strong>Question:</strong> Rank the facilities according to their potential environmental impact (assessed here by air quality watches) by dragging the names above and below each other (1=most impact; 3=least impact).",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -81,12 +81,12 @@
 				{
 					"blocks": [
 						{
-							"image": "img/legendtest.png",
+							"image": "img/legend.png",
 							"title": "Example Map",
-							"ask": "The example map to the left has similar symbols and controls as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing facilities in California as proportionately-sized circular symbols, with larger symbols indicating facilities that process relatively more imported waste. By clicking on the legend in the bottom right-hand corner of the map (see example image below), you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li><strong>Zoom</strong> into and out of the map using your mouse wheel, double-clicking on the map,  trackpad, or using the zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li><strong>Pan</strong> by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li><strong>Retrieve details</strong> about a facility by clicking on a circular symbol.</li><li><strong>Overlay</strong> labels and additional datasets (e.g., air quality watches per capita) using the radio buttons on the left side of the map.</li><li><strong>Filter</strong> facilities from the map based on the volume of waste they process or other datasets about the facilities using the slider bars on the left side of the map.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing facilities and a different decision, so read the provided scenario, decision questions, and interactive maps carefully! To get a feel for the study, use the example map to answer the following example question. Again, review the legend carefully. You can activate the legend by clicking on the legend as seen here:"
+							"ask": "The example map to the left has similar symbols and controls as the maps you will use in the survey. The map depicts locations of U.S. hazardous waste processing facilities in California. By viewing the legend on the page (see legend below), you will see an explanation of the values related to certain map features.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li><strong>Zoom</strong> into and out of the map using your mouse wheel, double-clicking on the map, trackpad, or using the zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li><strong>Pan</strong> by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li><strong>Retrieve details</strong> about a facility by clicking on a circular symbol.</li><li><strong>Overlay</strong> additional datasets (e.g., air quality watches per capita) using the radio buttons on the left side of the map.</li><li><strong>Filter</strong> facilities from the map based on datasets about the facilities using the slider bars on the left side of the map.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing facilities and a different decision, so read the provided scenario, decision questions, and interactive maps carefully! To get a feel for the study, use the example map to answer the following example question. Again, review the legend carefully. An example of the legend is seen here:"
 						},
 						{
-							"ask": "<strong>Question</strong>: Rank the facilities according to their environmental impact by dragging the names above and below each other (1=most impact; 3=least impact). ",
+							"ask": "<strong>Question:</strong> Rank the facilities according to their potential environmental impact (assessed here by air quality watches) by dragging the names above and below each other (1=most impact; 3=least impact).",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -117,13 +117,17 @@
 		{
 			"page": 5,
 			"fullpage": true,
+			"timer": {
+				"persist": true
+			},
 			"sets": [
 				{
 					"blocks": [
 						{
 							"image": "img/benchmark.png",
+							"image2": "img/kgstate.png",
 							"title": "Map Reading Tasks",
-							"ask": "<strong>How many waste facilities are in Alabama?</strong>",
+							"ask": "<strong>How many waste facilities are in Utah?</strong>",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -148,7 +152,7 @@
 						{
 							"blocks": [
 								{
-									"title": "*These Questions are NOT timed.",
+
 									"ask": "1. On a scale of 1-5, how <strong><u>difficult</u></strong> was it for you to come to your answer?",
 									"input": {
 										"required": true,
@@ -204,26 +208,25 @@
 									"next"
 								]
 							},
-						{
-						"resetMap": true,
-						"blocks":	[{
+							{
+							"resetMap": true,
+							"blocks":	[{
 							"image": "img/benchmark.png",
-							"ask": "<strong>Which state imported more kilograms of waste?</strong>",
+							"image2": "img/kgstate.png",
+							"ask": "<strong>How many states imported more than 15% of the total waste imported?</strong>",
 							"input": {
 								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
-										{
-											"text": "Arkansas"
-										},
-										{
-											"text": "South Carolina"
-										}
-									],
-								"items": [
 									{
-
+										"text": "1"
+									},
+									{
+										"text": "2"
+									},
+									{
+										"text": "3"
 									}
 								]
 							}
@@ -234,7 +237,7 @@
 								{
 									"blocks": [
 										{
-											"title": "*These Questions are NOT timed.",
+
 											"ask": "1. On a scale of 1-5, how <strong><u>difficult</u></strong> was it for you to come to your answer?",
 											"input": {
 												"required": true,
@@ -290,24 +293,27 @@
 										"next"
 									]
 								},
-							{
-							"resetMap": true,
-							"blocks":	[{
+						{
+						"resetMap": true,
+						"blocks":	[{
 							"image": "img/benchmark.png",
-							"ask": "<strong>Which state imported the most kilograms of waste?</strong>",
+							"image2": "img/kgstate.png",
+							"ask": "<strong>Which state imported more kilograms of waste?</strong>",
 							"input": {
 								"required": true,
 								"autoadvance": false,
 								"type": "radios",
 								"options": [
+										{
+											"text": "Michigan"
+										},
+										{
+											"text": "South Carolina"
+										}
+									],
+								"items": [
 									{
-										"text": "Minnesota"
-									},
-									{
-										"text": "Arizona"
-									},
-									{
-										"text": "Arkansas"
+
 									}
 								]
 							}
@@ -318,7 +324,7 @@
 								{
 									"blocks": [
 										{
-											"title": "*These Questions are NOT timed.",
+
 											"ask": "1. On a scale of 1-5, how <strong><u>difficult</u></strong> was it for you to come to your answer?",
 											"input": {
 												"required": true,
@@ -378,17 +384,18 @@
 								"resetMap": true,
 								"blocks":	[{
 								"image": "img/benchmark.png",
-								"ask": "<strong>Which state is more likely to have imported waste from Canada?</strong>",
+								"image2": "img/kgstate.png",
+								"ask": "<strong>Which state imported the greater percentage of total waste?</strong>",
 								"input": {
 									"required": true,
 									"autoadvance": false,
 									"type": "radios",
 									"options": [
 										{
-											"text": "Michigan"
+											"text": "Nebraska"
 										},
 										{
-											"text": "Nebraska"
+											"text": "Tennessee"
 										}
 									]
 								}
@@ -399,7 +406,7 @@
 									{
 										"blocks": [
 											{
-												"title": "*These Questions are NOT timed.",
+
 												"ask": "1. On a scale of 1-5, how <strong><u>difficult</u></strong> was it for you to come to your answer?",
 												"input": {
 													"required": true,
@@ -456,10 +463,96 @@
 										]
 									},
 							{
+							"resetMap": true,
+							"blocks":	[{
+							"image": "img/benchmark.png",
+							"image2": "img/kgstate.png",
+							"ask": "<strong>Which state imported the most kilograms of waste?</strong>",
+							"input": {
+								"required": true,
+								"autoadvance": false,
+								"type": "radios",
+								"options": [
+									{
+										"text": "Minnesota"
+									},
+									{
+										"text": "Arizona"
+									},
+									{
+										"text": "Arkansas"
+									}
+								]
+							}
+							}],
+							"buttons": [
+									"next"
+								]},
+								{
+									"blocks": [
+										{
+
+											"ask": "1. On a scale of 1-5, how <strong><u>difficult</u></strong> was it for you to come to your answer?",
+											"input": {
+												"required": true,
+												"type": "matrix",
+												"options": [
+													{
+														"text": "1-Very easy "
+													},
+													{
+														"text": "2"
+													},
+													{
+														"text": "3"
+													},
+													{
+														"text": "4"
+													},
+													{
+														"text": "5-Very difficult"
+													}
+												],
+												"items": [{}]
+											}
+										},
+										{
+											"ask": "2. On a scale of 1-5, how <strong><u>confident</u></strong> are you that your answer is correct?",
+											"input": {
+												"required": true,
+												"autoadvance": false,
+												"type": "matrix",
+												"options": [
+													{
+														"text": "1-Not confident"
+													},
+													{
+														"text": "2"
+													},
+													{
+														"text": "3"
+													},
+													{
+														"text": "4"
+													},
+													{
+														"text": "5-Very confident"
+													}
+												],
+											"items": [{}]
+										}
+									}
+								],
+								"buttons": [
+										"next"
+									]
+								},
+							{
 								"resetMap": true,
 							"blocks":	[{
 							"image": "img/benchmark.png",
-							"ask": "<strong>Which region is most active in the hazardous waste trade?</strong>",
+							"image2": "img/kgstate.png",
+							"ask": "<strong>Which state imported the greatest percentage of total waste?</strong>",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -467,10 +560,13 @@
 								"type": "radios",
 								"options": [
 										{
-											"text": "Great Lakes Region"
+											"text": "Kansas"
 										},
 										{
-											"text": "Pacific Northwest"
+											"text": "Louisiana"
+										},
+										{
+											"text": "Oregon"
 										}
 									],
 								"items": [
@@ -488,7 +584,7 @@
 						{
 							"blocks": [
 								{
-									"title": "*These Questions are NOT timed.",
+
 									"ask": "1. On a scale of 1-5, how <strong><u>difficult</u></strong> was it for you to come to your answer?",
 									"input": {
 										"required": true,
@@ -761,6 +857,7 @@
 				{
 					"blocks": [
 						{
+							"image": "img/legend.png",
 							"title": "Map Task",
 							"ask": "You are the manager of a newly opened Canadian firm looking to ship your by-product hazardous waste to processing facilities in Ohio for disposal. The transnational shipment is due to waste volume needs that cannot be met in Canada and economic benefits of Ohio facilities. You are concerned about the impact on communities near the processing facilities, given recent news coverage over disproportionate risk to marginalized populations. Further, you want to send the hazardous waste to a processing facility that will handle it properly, otherwise your business could face scrutiny about negative environmental impacts. Given these needs and concerns, rank your preference for doing business with available Ohio processing facilities using information from the interactive map (1=most prefered, 7=least preferred).",
 							"input": {
@@ -812,6 +909,7 @@
 				{
 					"blocks": [
 						{
+							"image": "img/legend.png",
 							"title": "Map Task",
 							"ask": "You are a regulator at the EPA responsible for ensuring that hazardous waste imported from Mexico is processed at facilities in Texas following government regulations. New information suggests that the volume of imported hazardous waste has changed, and that you will need to plan site visits to review the processing facilities. Your job is to examine recent reports to assess each company’s potential for negative environmental impacts. Further, community members have come forward with concerns they are at risk of exposure to hazardous waste, and this risk disproportionately impacts marginalized populations. Given these needs and concerns, use the interactive map to rank the urgency you need to follow-up with site visits to each facility (1=most urgent, 7=least urgent).",
 							"input": {
@@ -863,6 +961,7 @@
 				{
 					"blocks": [
 						{
+							"image": "img/legend.png",
 							"title": "Map Task",
 							"ask": "You are the manager of a newly opened Mexican firm looking to ship your by-product hazardous waste to processing facilities in Texas for disposal. The transnational shipment is due to waste volume needs that cannot be met in Mexico and economic benefits of Texas facilities. You are concerned about the impact on communities near the processing facilities, given recent news coverage over disproportionate risk to marginalized populations. Further, you want to send the hazardous waste to a processing facility that will handle it properly, otherwise your business could face scrutiny about negative environmental impacts. Given these needs and concerns, rank your preference for doing business with available Texas processing facilities using information from the interactive map (1=most prefered, 7=least preferred).",
 							"input": {
@@ -914,6 +1013,7 @@
 				{
 					"blocks": [
 						{
+							"image": "img/legend.png",
 							"title": "Map Task",
 							"ask": "You are a regulator at the EPA responsible for ensuring that hazardous waste imported from Canada is processed at facilities in Ohio following government regulations. New information suggests that the volume of imported hazardous waste has changed, and that you will need to plan site visits to review the processing facilities. Your job is to examine recent reports to assess each company’s potential for negative environmental impacts. Further, community members have come forward with concerns they are at risk of exposure to hazardous waste, and this risk disproportionately impacts marginalized populations. Given these needs and concerns, use the interactive map to rank the urgency you need to follow-up with site visits to each facility (1=most urgent, 7=least urgent).",
 							"input": {
@@ -1376,6 +1476,9 @@
 		{
 			"page": 17,
 			"fullpage": true,
+			"timer": {
+				"remove": true
+			},
 			"sets": [
 				{
 					"blocks": [
@@ -1393,11 +1496,14 @@
 		{
 			"page": 18,
 			"fullpage": true,
+			"timer": {
+				"remove": true
+			},
 			"sets": [
 						{
 							"blocks": [
 								{
-									"title": "*These Questions are NOT timed.",
+
 									"ask": "1. On a scale of 1-5, how <strong><u>difficult</u></strong> was it for you to complete the ranking?",
 									"input": {
 										"required": true,
@@ -1452,6 +1558,72 @@
 							"buttons": [
 									"next"
 								]
-							}]}
+							}]},
+							{
+								"page": 19,
+								"fullpage": true,
+								"timer": {
+									"remove": true
+								},
+								"sets": [
+											{
+												"blocks": [
+													{
+
+														"ask": "1. On a scale of 1-5, how <strong><u>difficult</u></strong> was it for you to complete the ranking?",
+														"input": {
+															"required": true,
+															"type": "matrix",
+															"options": [
+																{
+																	"text": "1-Very easy"
+																},
+																{
+																	"text": "2"
+																},
+																{
+																	"text": "3"
+																},
+																{
+																	"text": "4"
+																},
+																{
+																	"text": "5-Very difficult"
+																}
+															],
+															"items": [{}]
+														}
+													},
+													{
+														"ask": "2. On a scale of 1-5, how <strong><u>confident</u></strong> are you that your ranking is correct?",
+														"input": {
+															"required": true,
+															"autoadvance": false,
+															"type": "matrix",
+															"options": [
+																{
+																	"text": "1-Not confident"
+																},
+																{
+																	"text": "2"
+																},
+																{
+																	"text": "3"
+																},
+																{
+																	"text": "4"
+																},
+																{
+																	"text": "5-Very confident"
+																}
+															],
+															"items": [{}]
+														}
+													}
+												],
+												"buttons": [
+														"next"
+													]
+												}]}
 	]
 }

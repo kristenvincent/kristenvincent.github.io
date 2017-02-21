@@ -10,7 +10,7 @@
 			"page": 3,
 			"library": "Leaflet",
 			"mapOptions": {
-				"legend": true,
+				"legend": false,
 				"resetButton": false,
 				"center": [
 					37,
@@ -43,7 +43,7 @@
 						"source": "data/ExampleMapData.geojson",
 						"expressedAttribute": "Kilograms",
 						"displayAttributes": [
-							"Company", "Kilograms", "Air Quality Watches"
+							"Company", "Air Quality Watches"
 						],
 						"layerOptions": {
 					"fillOpacity": 0.7,
@@ -99,7 +99,7 @@
 				"page": 4,
 				"library": "Leaflet",
 				"mapOptions": {
-					"legend": true,
+					"legend": false,
 					"resetButton": false,
 					"center": [
 						36,
@@ -146,17 +146,17 @@
 				"techniques": [
 					{
 						"type": "choropleth",
-						"classification": "quantile",
-						"classes": "BuGn.5"
+						"classification": "equal interval",
+						"classes": "BuGn.3"
 					}
 				]},
 						{
 							"roundTo": 0,
 							"name": "Kilogram Data",
-							"source": "data/ExampleMapData.geojson",
+							"source": "data/ExampleMapDataNum.geojson",
 							"expressedAttribute": "Kilograms",
 							"displayAttributes": [
-								"Company", "Kilograms", "Air Quality Watches"
+								"Company", "Kilograms", "Air Quality Watches "
 							],
 							"renderOnLoad": true,
 							"layerOptions": {
@@ -170,61 +170,9 @@
 										"type": "proportional symbol",
 											"classification": "quantile",
 											"classes": [
-												7.8,
-												11.1,
-												15.7
-											]
-								}
-							]
-						},
-						{
-							"roundTo": 0,
-							"name": "Kilogram Data2",
-							"source": "data/ExampleMapData.geojson",
-							"expressedAttribute": "Kilograms",
-							"displayAttributes": [
-								"Company", "Air Quality Watches"
-							],
-							"renderOnLoad": true,
-							"layerOptions": {
-						"fillOpacity": 0.7,
-						"color": "black",
-						"weight": 0.5,
-						"opacity": 0.5
-					},
-								"techniques": [
-									{
-										"showOnLegend": false,
-										"type": "proportional symbol",
-											"classification": "quantile",
-											"classes": [
-												0.01
-											]
-								}
-							]
-						},
-						{
-							"roundTo": 0,
-							"name": "Kilogram Data3",
-							"source": "data/ExampleMapData.geojson",
-							"expressedAttribute": "Kilograms",
-							"displayAttributes": [
-								"Kilograms"
-							],
-							"renderOnLoad": true,
-							"layerOptions": {
-						"fillOpacity": 0.7,
-						"color": "black",
-						"weight": 0.5,
-						"opacity": 0.5
-					},
-								"techniques": [
-									{
-										"showOnLegend": false,
-										"type": "proportional symbol",
-											"classification": "quantile",
-											"classes": [
-												0.01
+										7.8,
+										11.1,
+										15.7
 											]
 								}
 							]
@@ -267,7 +215,7 @@
 						},
 						"filter": {
 							"dataLayers": [
-									"Kilogram Data2", "Kilogram Data3"
+									"Air Quality Watches Per Capita"
 								],
 								"tool": "slider",
 								"logging": true,
@@ -307,7 +255,7 @@
 						"page": 6,
 						"library": "Leaflet",
 						"mapOptions": {
-							"legend": true,
+							"legend": false,
 							"resetButton": false,
 							"center": [
 								40,
@@ -341,7 +289,7 @@
 									"source": "data/Ohio.geojson",
 									"expressedAttribute": "Kilograms",
 									"displayAttributes": [
-										"Company",  "Kilograms", "Non-white (%)", "Air Quality Watches"
+										"Company", "Non-white (%)", "Air Quality Watches"
 									],
 									"layerOptions": {
 								"fillOpacity": 0.7,
@@ -351,14 +299,11 @@
 							},
 											"techniques": [
 												{
+
 													"type": "proportional symbol",
 														"classification": "quantile",
 														"classes": [
-															7.8,
-															11.1,
-															15.7,
-															22.2,
-															31.4
+															7.8
 														]
 												}
 											]}],
@@ -397,7 +342,7 @@
 								"page": 7,
 								"library": "Leaflet",
 								"mapOptions": {
-									"legend": true,
+									"legend": false,
 									"resetButton": false,
 									"center": [
 										32,
@@ -430,7 +375,7 @@
 											"roundTo": 0,
 											"expressedAttribute": "Kilograms",
 											"displayAttributes": [
-												"Company", "Kilograms", "Non-white (%)", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
+												"Company", "Non-white (%)", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
 											],
 											"layerOptions": {
 										"fillOpacity": 0.7,
@@ -444,11 +389,7 @@
 																	"type": "proportional symbol",
 																		"classification": "quantile",
 																		"classes": [
-																			7.8,
-																			11.1,
-																			15.7,
-																			22.2,
-																			31.4
+																			7.8
 																		]
 																}
 															]}],
@@ -488,7 +429,7 @@
 								"page": 8,
 								"library": "Leaflet",
 								"mapOptions": {
-									"legend": true,
+									"legend": false,
 									"resetButton": false,
 									"center": [
 										32,
@@ -521,7 +462,7 @@
 											"roundTo": 0,
 											"expressedAttribute": "Kilograms",
 											"displayAttributes": [
-												"Company", "Kilograms", "Non-white (%)", "Air Quality Watches"
+												"Company", "Non-white (%)", "Air Quality Watches"
 											],
 											"layerOptions": {
 										"fillOpacity": 0.7,
@@ -535,11 +476,7 @@
 																	"type": "proportional symbol",
 																		"classification": "quantile",
 																		"classes": [
-																			7.8,
-																			11.1,
-																			15.7,
-																			22.2,
-																			31.4
+																			7.8
 																		]
 																}
 															]}],
@@ -579,7 +516,7 @@
 									"page": 9,
 									"library": "Leaflet",
 									"mapOptions": {
-										"legend": true,
+										"legend": false,
 										"resetButton": false,
 										"center": [
 											40,
@@ -613,7 +550,7 @@
 												"source": "data/Ohio.geojson",
 												"expressedAttribute": "Kilograms",
 												"displayAttributes": [
-													"Company", "Kilograms", "Non-white (%)", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
+													"Company", "Non-white (%)", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
 												],
 												"layerOptions": {
 											"fillOpacity": 0.7,
@@ -626,11 +563,7 @@
 																"type": "proportional symbol",
 																	"classification": "quantile",
 																	"classes": [
-																		7.8,
-																		11.1,
-																		15.7,
-																		22.2,
-																		31.4
+																		7.8
 																	]
 															}
 														]}],
@@ -669,7 +602,7 @@
 									"page": 10,
 									"library": "Leaflet",
 									"mapOptions": {
-										"legend": true,
+										"legend": false,
 										"resetButton": false,
 										"center": [
 											40,
@@ -715,7 +648,7 @@
 													{
 														"type": "choropleth",
 														"classification": "quantile",
-														"classes": "BuGn.5"
+														"classes": "BuGn.3"
 													}
 												]},
 											{
@@ -737,7 +670,7 @@
 										{
 											"type": "choropleth",
 											"classification": "quantile",
-											"classes": "BuGn.5"
+											"classes": "BuGn.3"
 										}
 									]},
 											{
@@ -746,7 +679,7 @@
 												"roundTo": 0,
 												"expressedAttribute": "Kilograms",
 												"displayAttributes": [
-													"Company","Kilograms", "Non-white (%)", "Air Quality Watches"
+													"Company", "Non-white (%)", "Air Quality Watches"
 												],
 												"layerOptions": {
 											"fillOpacity": 0.7,
@@ -760,64 +693,10 @@
 																		"type": "proportional symbol",
 																			"classification": "quantile",
 																			"classes": [
-																				7.8,
-																				11.1,
-																				15.7,
-																				22.2,
-																				31.4
+																				7.8
 																			]
 																	}
 																]},
-																{
-																	"name": "Kilograms2",
-																	"source": "data/Ohio.geojson",
-																	"roundTo": 0,
-																	"expressedAttribute": "Kilograms",
-																	"displayAttributes": [
-																		"Company", "Non-white (%)", "Air Quality Watches"
-																	],
-																	"layerOptions": {
-																"fillOpacity": 0.7,
-																"color": "black",
-																"weight": 0.5,
-																"opacity": 0.5
-															},
-																	"renderOnLoad": true,
-																					"techniques": [
-																						{
-																							"showOnLegend": false,
-																							"type": "proportional symbol",
-																								"classification": "quantile",
-																								"classes": [
-																									0.1
-																								]
-																						}
-																					]},
-																					{
-																						"name": "Kilograms3",
-																						"source": "data/Ohio.geojson",
-																						"roundTo": 0,
-																						"expressedAttribute": "Kilograms",
-																						"displayAttributes": [
-																							"Kilograms"
-																						],
-																						"layerOptions": {
-																					"fillOpacity": 0.7,
-																					"color": "black",
-																					"weight": 0.5,
-																					"opacity": 0.5
-																				},
-																						"renderOnLoad": true,
-																										"techniques": [
-																											{
-																												"showOnLegend":false,
-																												"type": "proportional symbol",
-																													"classification": "quantile",
-																													"classes": [
-																														0.1
-																													]
-																											}
-																										]},
 																{
 																"name": "Company",
 																"source": "data/Ohio.geojson",
@@ -863,7 +742,7 @@
 											},
 											"filter": {
 												"dataLayers": [
-														"Kilograms2", "Kilograms3"
+														"Kilograms"
 													],
 													"tool": "slider",
 													"logging": true,
@@ -892,7 +771,7 @@
 												"page": 11,
 												"library": "Leaflet",
 												"mapOptions": {
-													"legend": true,
+													"legend": false,
 													"resetButton": false,
 													"center": [
 														29.5,
@@ -938,7 +817,7 @@
 																{
 																	"type": "choropleth",
 																	"classification": "quantile",
-																	"classes": "BuGn.5"
+																	"classes": "BuGn.3"
 																}
 															]},
 														{
@@ -962,7 +841,7 @@
 													{
 														"type": "choropleth",
 														"classification": "quantile",
-														"classes": "BuGn.5"
+														"classes": "BuGn.3"
 													}
 												]},
 												{
@@ -986,7 +865,7 @@
 											{
 												"type": "choropleth",
 												"classification": "quantile",
-												"classes": "BuGn.5"
+												"classes": "BuGn.3"
 											}
 										]},
 														{
@@ -1010,7 +889,7 @@
 													{
 														"type": "choropleth",
 														"classification": "quantile",
-														"classes": "BuGn.5"
+														"classes": "BuGn.3"
 													}
 												]},
 														{
@@ -1019,7 +898,7 @@
 															"roundTo": 0,
 															"expressedAttribute": "Kilograms",
 															"displayAttributes": [
-																"Company","Kilograms", "Non-white (%)", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
+																"Company","Non-white (%)", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
 															],
 															"layerOptions": {
 														"fillOpacity": 0.7,
@@ -1033,64 +912,10 @@
 																					"type": "proportional symbol",
 																						"classification": "quantile",
 																						"classes": [
-																							7.8,
-																							11.1,
-																							15.7,
-																							22.2,
-																							31.4
+																							7.8
 																						]
 																				}
 																			]},
-																			{
-																				"name": "Kilograms2",
-																				"source": "data/Texas.geojson",
-																				"roundTo": 0,
-																				"expressedAttribute": "Kilograms",
-																				"displayAttributes": [
-																					"Company", "Non-white (%)", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
-																				],
-																				"layerOptions": {
-																			"fillOpacity": 0.7,
-																			"color": "black",
-																			"weight": 0.5,
-																			"opacity": 0.5
-																		},
-																				"renderOnLoad": true,
-																								"techniques": [
-																									{
-																										"showOnLegend":false,
-																										"type": "proportional symbol",
-																											"classification": "quantile",
-																											"classes": [
-																												0.1
-																											]
-																									}
-																								]},
-																								{
-																									"name": "Kilograms3",
-																									"source": "data/Texas.geojson",
-																									"roundTo": 0,
-																									"expressedAttribute": "Kilograms",
-																									"displayAttributes": [
-																										"Kilograms"
-																									],
-																									"layerOptions": {
-																								"fillOpacity": 0.7,
-																								"color": "black",
-																								"weight": 0.5,
-																								"opacity": 0.5
-																							},
-																									"renderOnLoad": true,
-																													"techniques": [
-																														{
-																															"showOnLegend": false,
-																															"type": "proportional symbol",
-																																"classification": "quantile",
-																																"classes": [
-																																	0.1
-																																]
-																														}
-																													]},
 																			{
 																			"name": "Company",
 																			"source": "data/Texas.geojson",
@@ -1136,7 +961,7 @@
 														},
 														"filter": {
 															"dataLayers": [
-																	"Kilograms2", "Kilograms3"
+																	"Kilograms"
 																],
 																"tool": "slider",
 																"logging": true,
@@ -1165,7 +990,7 @@
 											"page": 12,
 											"library": "Leaflet",
 											"mapOptions": {
-												"legend": true,
+												"legend": false,
 												"resetButton": false,
 												"center": [
 													29.5,
@@ -1211,7 +1036,7 @@
 															{
 																"type": "choropleth",
 																"classification": "quantile",
-																"classes": "BuGn.5"
+																"classes": "BuGn.3"
 															}
 														]},
 													{
@@ -1235,7 +1060,7 @@
 												{
 													"type": "choropleth",
 													"classification": "quantile",
-													"classes": "BuGn.5"
+													"classes": "BuGn.3"
 												}
 											]},
 													{
@@ -1244,7 +1069,7 @@
 														"roundTo": 0,
 														"expressedAttribute": "Kilograms",
 														"displayAttributes": [
-															"Company", "Kilograms", "Non-white (%)", "Air Quality Watches"
+															"Company", "Non-white (%)", "Air Quality Watches"
 														],
 														"layerOptions": {
 													"fillOpacity": 0.7,
@@ -1258,64 +1083,10 @@
 																				"type": "proportional symbol",
 																					"classification": "quantile",
 																					"classes": [
-																						7.8,
-																						11.1,
-																						15.7,
-																						22.2,
-																						31.4
+																						7.8
 																					]
 																			}
 																		]},
-																		{
-																			"name": "Kilograms2",
-																			"source": "data/Texas.geojson",
-																			"roundTo": 0,
-																			"expressedAttribute": "Kilograms",
-																			"displayAttributes": [
-																				"Company", "Non-white (%)", "Air Quality Watches"
-																			],
-																			"layerOptions": {
-																		"fillOpacity": 0.7,
-																		"color": "black",
-																		"weight": 0.5,
-																		"opacity": 0.5
-																	},
-																			"renderOnLoad": true,
-																							"techniques": [
-																								{
-																									"showOnLegend": false,
-																									"type": "proportional symbol",
-																										"classification": "quantile",
-																										"classes": [
-																											0.1
-																										]
-																								}
-																							]},
-																							{
-																								"name": "Kilograms3",
-																								"source": "data/Texas.geojson",
-																								"roundTo": 0,
-																								"expressedAttribute": "Kilograms",
-																								"displayAttributes": [
-																									"Kilograms"
-																								],
-																								"layerOptions": {
-																							"fillOpacity": 0.7,
-																							"color": "black",
-																							"weight": 0.5,
-																							"opacity": 0.5
-																						},
-																								"renderOnLoad": true,
-																												"techniques": [
-																													{
-																														"showOnLegend": false,
-																														"type": "proportional symbol",
-																															"classification": "quantile",
-																															"classes": [
-																																0.1
-																															]
-																													}
-																												]},
 																		{
 																		"name": "Company",
 																		"source": "data/Texas.geojson",
@@ -1361,7 +1132,7 @@
 													},
 													"filter": {
 														"dataLayers": [
-																"Kilograms2", "Kilograms3"
+																"Kilograms"
 															],
 															"tool": "slider",
 															"logging": true,
@@ -1390,7 +1161,7 @@
 														"page": 13,
 														"library": "Leaflet",
 														"mapOptions": {
-															"legend": true,
+															"legend": false,
 															"resetButton": false,
 															"center": [
 																40,
@@ -1436,7 +1207,7 @@
 																		{
 																			"type": "choropleth",
 																			"classification": "quantile",
-																			"classes": "BuGn.5"
+																			"classes": "BuGn.3"
 																		}
 																	]},
 																{
@@ -1460,7 +1231,7 @@
 															{
 																"type": "choropleth",
 																"classification": "quantile",
-																"classes": "BuGn.5"
+																"classes": "BuGn.3"
 															}
 														]},
 														{
@@ -1484,7 +1255,7 @@
 													{
 														"type": "choropleth",
 														"classification": "quantile",
-														"classes": "BuGn.5"
+														"classes": "BuGn.3"
 													}
 												]},
 																{
@@ -1508,7 +1279,7 @@
 															{
 																"type": "choropleth",
 																"classification": "quantile",
-																"classes": "BuGn.5"
+																"classes": "BuGn.3"
 															}
 														]},
 																{
@@ -1517,7 +1288,7 @@
 																	"roundTo": 0,
 																	"expressedAttribute": "Kilograms",
 																	"displayAttributes": [
-																		"Company","Kilograms", "Non-white (%)", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
+																		"Company", "Non-white (%)", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
 																	],
 																	"layerOptions": {
 																"fillOpacity": 0.7,
@@ -1531,64 +1302,10 @@
 																							"type": "proportional symbol",
 																								"classification": "quantile",
 																								"classes": [
-																									7.8,
-																									11.1,
-																									15.7,
-																									22.2,
-																									31.4
+																									7.8
 																								]
 																						}
 																					]},
-																					{
-																						"name": "Kilograms2",
-																						"source": "data/Ohio.geojson",
-																						"roundTo": 0,
-																						"expressedAttribute": "Kilograms",
-																						"displayAttributes": [
-																							"Company", "Non-white (%)", "Poverty (%)", "Air Quality Watches", "Soil Penetration (in/hr)"
-																						],
-																						"layerOptions": {
-																					"fillOpacity": 0.7,
-																					"color": "black",
-																					"weight": 0.5,
-																					"opacity": 0.5
-																				},
-																						"renderOnLoad": true,
-																										"techniques": [
-																											{
-																												"showOnLegend": false,
-																												"type": "proportional symbol",
-																													"classification": "quantile",
-																													"classes": [
-																														0.1
-																													]
-																											}
-																										]},
-																										{
-																											"name": "Kilograms3",
-																											"source": "data/Ohio.geojson",
-																											"roundTo": 0,
-																											"expressedAttribute": "Kilograms",
-																											"displayAttributes": [
-																												"Kilograms"
-																											],
-																											"layerOptions": {
-																										"fillOpacity": 0.7,
-																										"color": "black",
-																										"weight": 0.5,
-																										"opacity": 0.5
-																									},
-																											"renderOnLoad": true,
-																															"techniques": [
-																																{
-																																	"showOnLegend": false,
-																																	"type": "proportional symbol",
-																																		"classification": "quantile",
-																																		"classes": [
-																																			0.1
-																																		]
-																																}
-																															]},
 																					{
 																					"name": "Company",
 																					"source": "data/Ohio.geojson",
@@ -1634,7 +1351,7 @@
 																},
 																"filter": {
 																	"dataLayers": [
-																			"Kilograms2", "Kilograms3"
+																			"Kilograms"
 																		],
 																		"tool": "slider",
 																		"logging": true,
