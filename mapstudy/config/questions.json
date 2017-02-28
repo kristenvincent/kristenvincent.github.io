@@ -24,7 +24,7 @@
 				{
 					"blocks": [
 						{
-							"ask": "<strong>Thank you for agreeing to participate!</strong></br></br>Digital interactive maps are now a part of our everyday lives. This research investigates how such interactive maps can or cannot help us make choices about the management and regulation of commodities in the landscape.</br></br> Specifically, the following survey uses the North American regulation and trade of hazardous waste as a case study. Tons of hazardous waste are traded among Canada, Mexico, and the United States daily, creating many management decisions that ensure safe disposal. Such choices about how to regulate hazardous waste are complex, requiring consideration of a number of potential solutions. In this study, you will be asked to make two different decisions about the hazardous waste trade using information provided in an interactive map.</br></br><strong><u>INSTRUCTIONS:</u></strong></br></br>The survey proceeds in four sections: <ol><li>First, you will be given an example map to familiarize yourself with the map symbols and map controls used in the study. You also will be given an example task to get a feel for the kinds of decisions you will need to make with the interactive maps. Use as much time as you wish to study the example map and learn how to use its controls, as these responses are not recorded.</li><li>You then will be presented with two different scenarios related to the regulation and trade of hazardous waste trade. Each scenario focuses on a different region in the United States and includes a different interactive map to support your decision. For each scenario, make use of the interactive map to arrive at a decision you feel is <strong>optimal</strong>. After each decision, you will be asked to assess your <strong>confidence</strong> in the decision solution and to rate your <strong>difficulty</strong> in making this choice. Please complete these questions using your complete focus (do not view other websites, split your attention, etc.).</li><li>Between the two scenarios, you will complete a set of map reading tasks with a static map showing the distribution of hazardous waste imports in the United States. Please complete these questions using your complete focus, as they are meant to refresh your train of thought from the prior decision.</li><li>After completing all map tasks, you will respond to a series of background questions about your interests and experiences. You will be compensated after you submit the background survey.</li></ol>Throughout the survey, <strong>DO NOT</strong> use the web browser “Back” or “Forward” buttons or close your browser, as this will require you to restart the survey. Only use the “Next” buttons found at the bottom of the pages to advance the survey.</br></br><strong><u>ELIGIBILITY:</u></strong></br></br>Before beginning, please once again review your eligibility for participating in the study. These restrictions greatly impact your responses:</br><ul><li>You must be 18 years of age or older.</li><li>English must be your first language.</li><li>You must currently be living in the United States, but not in the states of Ohio or Texas, the location of the pair of scenarios. </li><li>You must complete the survey on a laptop or desktop computer (i.e., <strong>NOT</strong> a mobile device such as a phone or tablet). </li></ul></br></br><strong>Select 'Next' to confirm that you have read the instructions and confirm that you are eligible and ready to view the example map.</strong>"
+							"ask": "<strong>Thank you for agreeing to participate!</strong></br></br>Digital interactive maps are now a part of our everyday lives. This research investigates how such interactive maps can or cannot help us make choices about the management and regulation of commodities in the landscape.</br></br> Specifically, the following survey uses the North American regulation and trade of hazardous waste as a case study. Tons of hazardous waste are traded among Canada, Mexico, and the United States daily, creating many management decisions that ensure safe disposal. Such choices about how to regulate hazardous waste are complex, requiring consideration of a number of potential solutions. In this study, you will be asked to make two different decisions about the hazardous waste trade using information provided in an interactive map.</br></br><strong><u>INSTRUCTIONS:</u></strong></br></br>The survey proceeds in four sections: <ol><li>First, you will be given an example map to familiarize yourself with the map symbols and map controls used in the study. You also will be given an example task to get a feel for the kinds of decisions you will need to make with the interactive maps. Use as much time as you wish to study the example map and learn how to use its controls, as these responses are not recorded.</li><li>You then will be presented with two different scenarios related to the regulation and trade of hazardous waste trade. Each scenario focuses on a different region in the United States and includes a different interactive map to support your decision. For each scenario, make use of the interactive map to arrive at a decision you feel is <strong>optimal</strong>. After each decision, you will be asked to assess your <strong>confidence</strong> in the decision solution and to rate your <strong>difficulty</strong> in making this choice. Please complete these questions using your <strong>complete focus</strong> (do not view other websites, split your attention, etc.).</li><li>Between the two scenarios, you will complete a set of map reading tasks with a static map showing the distribution of hazardous waste imports in the United States. Please complete these questions using your <strong>complete focus</strong>, as they are meant to refresh your train of thought from the prior decision.</li><li>After completing all map tasks, you will respond to a series of background questions about your interests and experiences. You will be compensated after you submit the background survey.</li></ol>Throughout the survey, <strong>DO NOT</strong> use the web browser “Back” or “Forward” buttons or close your browser, as this will require you to restart the survey. Only use the “Next” buttons found at the bottom of the pages to advance the survey.</br></br><strong><u>ELIGIBILITY:</u></strong></br></br>Before beginning, please once again review your eligibility for participating in the study. These restrictions greatly impact your responses:</br><ul><li>You must be 18 years of age or older.</li><li>English must be your first language.</li><li>You must currently be living in the United States, but not in the states of Ohio or Texas, the location of the pair of scenarios. </li><li>You must complete the survey on a laptop or desktop computer (i.e., <strong>NOT</strong> a mobile device such as a phone or tablet). </li></ul></br></br><strong>Select 'Next' to confirm that you have read the instructions and confirm that you are eligible and ready to view the example map.</strong>"
 						}
 					],
 					"buttons": [
@@ -46,7 +46,7 @@
 							"ask": "The example map to the left has similar symbols and controls as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing facilities in California as proportionately-sized circular symbols, with larger symbols indicating facilities that process relatively more imported waste. By viewing the legend on the page (see legend below), you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li><strong>Zoom</strong> into and out of the map using your mouse wheel, double-clicking on the map, or using the zoom buttons to change the level of detail (zooming is constrained to only several scales).</li><li><strong>Pan</strong> by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li><strong>Retrieve details</strong> about a facility by clicking on a circular symbol.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing facilities and a different decision, so read the provided scenario, decision questions, and interactive maps carefully! To get a feel for the study, use the example map to answer the following example question. Again, review the legend carefully. An example of the legend is seen here:"
 						},
 						{
-							"ask": "<strong>Question:</strong> Rank the facilities according to their potential environmental impact by dragging the names above and below each other (1=most impact; 3=least impact).",
+							"ask": "<strong>Question:</strong> Rank the facilities according to their potential environmental impact by dragging the names above and below each other <strong>(1=most impact; 3=least impact)</strong>.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -87,7 +87,7 @@
 							"ask": "The example map to the left has similar symbols and controls as the maps you will use in the survey. The map depicts the total amount of hazardous waste imported at different U.S. processing facilities in California as proportionately-sized circular symbols, with larger symbols indicating facilities that process relatively more imported waste. By viewing the legends on the page (see legends below), you will see an explanation of the values related to the symbols.<br><br>The maps are interactive, and allow you to complete the following changes to the map: <ol><li><strong>Zoom</strong> into and out of the map using your mouse wheel, double-clicking on the map, trackpad, or using the zoom buttons on the map to change the level of detail (zooming is constrained to only several scales).</li><li><strong>Pan</strong> by grabbing and dragging the map to recenter on an area of interest (panning is constrained to the study area).</li><li><strong>Retrieve details</strong> about a facility by clicking on a circular symbol.</li><li><strong>Overlay</strong> labels and additional datasets (e.g., air quality watches per capita) using the radio buttons on the left side of the map.</li><li><strong>Filter</strong> facilities from the map based on the volume of waste they process or other datasets about the facilities using the slider bars on the left side of the map.</li></ol><br><strong>Try each of these interactions now.</strong><br><br> Each map that you view will have a different set of processing facilities and a different decision, so read the provided scenario, decision questions, and interactive maps carefully! To get a feel for the study, use the example map to answer the following example question. Again, review the legends carefully. Examples of the legends are seen here:"
 						},
 						{
-							"ask": "<strong>Question:</strong> Rank the facilities according to their potential environmental impact by dragging the names above and below each other (1=most impact; 3=least impact).",
+							"ask": "<strong>Question:</strong> Rank the facilities according to their potential environmental impact by dragging the names above and below each other <strong>(1=most impact; 3=least impact)</strong>.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -227,7 +227,7 @@
 						{
 							"title": "Map Task",
 							"image": "img/kglegend.png",
-							"ask": "You are the manager of a newly opened Canadian firm looking to ship your by-product hazardous waste to processing facilities in Ohio for disposal. The transnational shipment is due to waste volume needs that cannot be met in Canada and economic benefits of Ohio facilities. You are concerned about the impact on communities near the processing facilities, given recent news coverage over disproportionate risk to marginalized populations. Further, you want to send the hazardous waste to a processing facility that will handle it properly, otherwise your business could face scrutiny about negative environmental impacts. Given these needs and concerns, rank your preference for doing business with available Ohio processing facilities using information from the interactive map (1=most prefered, 7=least preferred).",
+							"ask": "You are the manager of a newly opened Canadian firm looking to ship your by-product hazardous waste to processing facilities in Ohio for disposal. The transnational shipment is due to waste volume needs that cannot be met in Canada and economic benefits of Ohio facilities. You are concerned about the impact on communities near the processing facilities, given recent news coverage over disproportionate risk to marginalized populations. Further, you want to send the hazardous waste to a processing facility that will handle it properly, otherwise your business could face scrutiny about negative environmental impacts. Given these needs and concerns, rank your preference for doing business with available Ohio processing facilities using information from the interactive map <strong>(1=most preferred, 7=least preferred)</strong>.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -279,7 +279,7 @@
 						{
 							"title": "Map Task",
 							"image": "img/kglegend.png",
-							"ask": "You are a regulator at the EPA responsible for ensuring that hazardous waste imported from Mexico is processed at facilities in Texas following government regulations. New information suggests that the volume of imported hazardous waste has changed, and that you will need to plan site visits to review the processing facilities. Your job is to examine recent reports to assess each company’s potential for negative environmental impacts. Further, community members have come forward with concerns they are at risk of exposure to hazardous waste, and this risk disproportionately impacts marginalized populations. Given these needs and concerns, use the interactive map to rank the urgency you need to follow-up with site visits to each facility (1=most urgent, 7=least urgent).",
+							"ask": "You are a regulator at the EPA responsible for ensuring that hazardous waste imported from Mexico is processed at facilities in Texas following government regulations. New information suggests that the volume of imported hazardous waste has changed, and that you will need to plan site visits to review the processing facilities. Your job is to examine recent reports to assess each company’s potential for negative environmental impacts. Further, community members have come forward with concerns they are at risk of exposure to hazardous waste, and this risk disproportionately impacts marginalized populations. Given these needs and concerns, use the interactive map to rank the urgency you need to follow-up with site visits to each facility <strong>(1=most urgent, 7=least urgent)</strong>.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -332,7 +332,7 @@
 						{
 							"title": "Map Task",
 							"image": "img/kglegend.png",
-							"ask": "You are the manager of a newly opened Mexican firm looking to ship your by-product hazardous waste to processing facilities in Texas for disposal. The transnational shipment is due to waste volume needs that cannot be met in Mexico and economic benefits of Texas facilities. You are concerned about the impact on communities near the processing facilities, given recent news coverage over disproportionate risk to marginalized populations. Further, you want to send the hazardous waste to a processing facility that will handle it properly, otherwise your business could face scrutiny about negative environmental impacts. Given these needs and concerns, rank your preference for doing business with available Texas processing facilities using information from the interactive map (1=most prefered, 7=least preferred).",
+							"ask": "You are the manager of a newly opened Mexican firm looking to ship your by-product hazardous waste to processing facilities in Texas for disposal. The transnational shipment is due to waste volume needs that cannot be met in Mexico and economic benefits of Texas facilities. You are concerned about the impact on communities near the processing facilities, given recent news coverage over disproportionate risk to marginalized populations. Further, you want to send the hazardous waste to a processing facility that will handle it properly, otherwise your business could face scrutiny about negative environmental impacts. Given these needs and concerns, rank your preference for doing business with available Texas processing facilities using information from the interactive map <strong>(1=most preferred, 7=least preferred)</strong>.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -384,7 +384,7 @@
 						{
 							"title": "Map Task",
 							"image": "img/kglegend.png",
-							"ask": "You are a regulator at the EPA responsible for ensuring that hazardous waste imported from Canada is processed at facilities in Ohio following government regulations. New information suggests that the volume of imported hazardous waste has changed, and that you will need to plan site visits to review the processing facilities. Your job is to examine recent reports to assess each company’s potential for negative environmental impacts. Further, community members have come forward with concerns they are at risk of exposure to hazardous waste, and this risk disproportionately impacts marginalized populations. Given these needs and concerns, use the interactive map to rank the urgency you need to follow-up with site visits to each facility (1=most urgent, 7=least urgent).",
+							"ask": "You are a regulator at the EPA responsible for ensuring that hazardous waste imported from Canada is processed at facilities in Ohio following government regulations. New information suggests that the volume of imported hazardous waste has changed, and that you will need to plan site visits to review the processing facilities. Your job is to examine recent reports to assess each company’s potential for negative environmental impacts. Further, community members have come forward with concerns they are at risk of exposure to hazardous waste, and this risk disproportionately impacts marginalized populations. Given these needs and concerns, use the interactive map to rank the urgency you need to follow-up with site visits to each facility <strong>(1=most urgent, 7=least urgent)</strong>.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -437,7 +437,7 @@
 							"image": "img/legend.png",
 							"image2": "img/kglegend.png",
 							"title": "Map Task",
-							"ask": "You are the manager of a newly opened Canadian firm looking to ship your by-product hazardous waste to processing facilities in Ohio for disposal. The transnational shipment is due to waste volume needs that cannot be met in Canada and economic benefits of Ohio facilities. You are concerned about the impact on communities near the processing facilities, given recent news coverage over disproportionate risk to marginalized populations. Further, you want to send the hazardous waste to a processing facility that will handle it properly, otherwise your business could face scrutiny about negative environmental impacts. Given these needs and concerns, rank your preference for doing business with available Ohio processing facilities using information from the interactive map (1=most prefered, 7=least preferred).",
+							"ask": "You are the manager of a newly opened Canadian firm looking to ship your by-product hazardous waste to processing facilities in Ohio for disposal. The transnational shipment is due to waste volume needs that cannot be met in Canada and economic benefits of Ohio facilities. You are concerned about the impact on communities near the processing facilities, given recent news coverage over disproportionate risk to marginalized populations. Further, you want to send the hazardous waste to a processing facility that will handle it properly, otherwise your business could face scrutiny about negative environmental impacts. Given these needs and concerns, rank your preference for doing business with available Ohio processing facilities using information from the interactive map <strong>(1=most preferred, 7=least preferred)</strong>.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -490,7 +490,7 @@
 							"image": "img/legend.png",
 							"image2": "img/kglegend.png",
 							"title": "Map Task",
-							"ask": "You are a regulator at the EPA responsible for ensuring that hazardous waste imported from Mexico is processed at facilities in Texas following government regulations. New information suggests that the volume of imported hazardous waste has changed, and that you will need to plan site visits to review the processing facilities. Your job is to examine recent reports to assess each company’s potential for negative environmental impacts. Further, community members have come forward with concerns they are at risk of exposure to hazardous waste, and this risk disproportionately impacts marginalized populations. Given these needs and concerns, use the interactive map to rank the urgency you need to follow-up with site visits to each facility (1=most urgent, 7=least urgent).",
+							"ask": "You are a regulator at the EPA responsible for ensuring that hazardous waste imported from Mexico is processed at facilities in Texas following government regulations. New information suggests that the volume of imported hazardous waste has changed, and that you will need to plan site visits to review the processing facilities. Your job is to examine recent reports to assess each company’s potential for negative environmental impacts. Further, community members have come forward with concerns they are at risk of exposure to hazardous waste, and this risk disproportionately impacts marginalized populations. Given these needs and concerns, use the interactive map to rank the urgency you need to follow-up with site visits to each facility <strong>(1=most urgent, 7=least urgent)</strong>.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -543,7 +543,7 @@
 							"image": "img/legend.png",
 							"image2": "img/kglegend.png",
 							"title": "Map Task",
-							"ask": "You are the manager of a newly opened Mexican firm looking to ship your by-product hazardous waste to processing facilities in Texas for disposal. The transnational shipment is due to waste volume needs that cannot be met in Mexico and economic benefits of Texas facilities. You are concerned about the impact on communities near the processing facilities, given recent news coverage over disproportionate risk to marginalized populations. Further, you want to send the hazardous waste to a processing facility that will handle it properly, otherwise your business could face scrutiny about negative environmental impacts. Given these needs and concerns, rank your preference for doing business with available Texas processing facilities using information from the interactive map (1=most prefered, 7=least preferred).",
+							"ask": "You are the manager of a newly opened Mexican firm looking to ship your by-product hazardous waste to processing facilities in Texas for disposal. The transnational shipment is due to waste volume needs that cannot be met in Mexico and economic benefits of Texas facilities. You are concerned about the impact on communities near the processing facilities, given recent news coverage over disproportionate risk to marginalized populations. Further, you want to send the hazardous waste to a processing facility that will handle it properly, otherwise your business could face scrutiny about negative environmental impacts. Given these needs and concerns, rank your preference for doing business with available Texas processing facilities using information from the interactive map <strong>(1=most preferred, 7=least preferred)</strong>.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -596,7 +596,7 @@
 							"image": "img/legend.png",
 							"image2": "img/kglegend.png",
 							"title": "Map Task",
-							"ask": "You are a regulator at the EPA responsible for ensuring that hazardous waste imported from Canada is processed at facilities in Ohio following government regulations. New information suggests that the volume of imported hazardous waste has changed, and that you will need to plan site visits to review the processing facilities. Your job is to examine recent reports to assess each company’s potential for negative environmental impacts. Further, community members have come forward with concerns they are at risk of exposure to hazardous waste, and this risk disproportionately impacts marginalized populations. Given these needs and concerns, use the interactive map to rank the urgency you need to follow-up with site visits to each facility (1=most urgent, 7=least urgent).",
+							"ask": "You are a regulator at the EPA responsible for ensuring that hazardous waste imported from Canada is processed at facilities in Ohio following government regulations. New information suggests that the volume of imported hazardous waste has changed, and that you will need to plan site visits to review the processing facilities. Your job is to examine recent reports to assess each company’s potential for negative environmental impacts. Further, community members have come forward with concerns they are at risk of exposure to hazardous waste, and this risk disproportionately impacts marginalized populations. Given these needs and concerns, use the interactive map to rank the urgency you need to follow-up with site visits to each facility <strong>(1=most urgent, 7=least urgent)</strong>.",
 							"input": {
 								"required": true,
 								"autoadvance": false,
@@ -1142,8 +1142,8 @@
 									}
 								},
 								{
-									"title": "Scenario #1",
-									"ask": "Please rate how important the following criteria were when assuming Scenario #1:",
+
+									"ask": "3. Please rate how important the following criteria were when assuming Scenario #1:",
 									"input": {
 										"required": true,
 										"type": "matrix",
@@ -1178,7 +1178,7 @@
 									}
 								},
 								{
-									"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
+									"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
 									"input": {
 										"required": true,
 										"type": "matrix",
@@ -1212,7 +1212,7 @@
 										]
 									}
 								},
-								{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
+								{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
 									"input": {
 										"required": true,
 										"autoadvance": false,
@@ -1286,8 +1286,8 @@
 														}
 													},
 													{
-														"title": "Scenario #2",
-														"ask": "Please rate how important the following criteria were when assuming Scenario #2:",
+
+														"ask": "3. Please rate how important the following criteria were when assuming Scenario #2:",
 														"input": {
 															"required": true,
 															"type": "matrix",
@@ -1328,7 +1328,7 @@
 														}
 													},
 													{
-														"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
+														"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
 														"input": {
 															"required": true,
 															"type": "matrix",
@@ -1362,7 +1362,7 @@
 															]
 														}
 													},
-													{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
+													{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
 														"input": {
 															"required": true,
 															"autoadvance": false,
@@ -1557,8 +1557,8 @@
 																								}
 																							},
 																							{
-																								"title": "Scenario #1",
-																								"ask": "Please rate how important the following criteria were when assuming Scenario #1:",
+
+																								"ask": "3. Please rate how important the following criteria were when assuming Scenario #1:",
 																								"input": {
 																									"required": true,
 																									"type": "matrix",
@@ -1599,7 +1599,7 @@
 																								}
 																							},
 																							{
-																								"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
+																								"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
 																								"input": {
 																									"required": true,
 																									"type": "matrix",
@@ -1633,7 +1633,7 @@
 																									]
 																								}
 																							},
-																							{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
+																							{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
 																								"input": {
 																									"required": true,
 																									"autoadvance": false,
@@ -1707,8 +1707,8 @@
 																													}
 																												},
 																												{
-																													"title": "Scenario #2",
-																													"ask": "Please rate how important the following criteria were when assuming Scenario #2:",
+
+																													"ask": "3. Please rate how important the following criteria were when assuming Scenario #2:",
 																													"input": {
 																														"required": true,
 																														"type": "matrix",
@@ -1743,7 +1743,7 @@
 																													}
 																												},
 																												{
-																													"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
+																													"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
 																													"input": {
 																														"required": true,
 																														"type": "matrix",
@@ -1777,7 +1777,7 @@
 																														]
 																													}
 																												},
-																												{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
+																												{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
 																													"input": {
 																														"required": true,
 																														"autoadvance": false,
@@ -1851,8 +1851,8 @@
 																																		}
 																																	},
 																																	{
-																																		"title": "Scenario #1",
-																																		"ask": "Please rate how important the following criteria were when assuming Scenario #1:",
+
+																																		"ask": "3. Please rate how important the following criteria were when assuming Scenario #1:",
 																																		"input": {
 																																			"required": true,
 																																			"type": "matrix",
@@ -1887,7 +1887,7 @@
 																																		}
 																																	},
 																																	{
-																																		"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
+																																		"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
 																																		"input": {
 																																			"required": true,
 																																			"type": "matrix",
@@ -1921,7 +1921,7 @@
 																																			]
 																																		}
 																																	},
-																																	{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
+																																	{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
 																																		"input": {
 																																			"required": true,
 																																			"autoadvance": false,
@@ -1995,8 +1995,8 @@
 																																							}
 																																						},
 																																						{
-																																							"title": "Scenario #2",
-																																							"ask": "Please rate how important the following criteria were when assuming Scenario #2:",
+
+																																							"ask": "3. Please rate how important the following criteria were when assuming Scenario #2:",
 																																							"input": {
 																																								"required": true,
 																																								"type": "matrix",
@@ -2037,7 +2037,7 @@
 																																							}
 																																						},
 																	{
-																		"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
+																		"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
 																		"input": {
 																			"required": true,
 																			"type": "matrix",
@@ -2071,7 +2071,7 @@
 																		]
 																	}
 																},
-																{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
+																{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
 																	"input": {
 																		"required": true,
 																		"autoadvance": false,
@@ -2145,8 +2145,8 @@
 																						}
 																					},
 																					{
-																						"title": "Scenario #1",
-																						"ask": "Please rate how important the following criteria were when assuming Scenario #1:",
+
+																						"ask": "3. Please rate how important the following criteria were when assuming Scenario #1:",
 																						"input": {
 																							"required": true,
 																							"type": "matrix",
@@ -2187,7 +2187,7 @@
 																						}
 																					},
 {
-	"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
+	"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
 	"input": {
 		"required": true,
 		"type": "matrix",
@@ -2221,7 +2221,7 @@
 	]
 }
 },
-{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
+{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
 "input": {
 	"required": true,
 	"autoadvance": false,
@@ -2295,8 +2295,8 @@
 							}
 						},
 						{
-							"title": "Scenario #2",
-							"ask": "Please rate how important the following criteria were when assuming Scenario #2:",
+
+							"ask": "3. Please rate how important the following criteria were when assuming Scenario #2:",
 							"input": {
 								"required": true,
 								"type": "matrix",
@@ -2331,7 +2331,7 @@
 							}
 						},
 							{
-							"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
+							"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
 							"input": {
 							"required": true,
 							"type": "matrix",
@@ -2365,7 +2365,7 @@
 							]
 							}
 							},
-							{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
+							{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
 							"input": {
 							"required": true,
 							"autoadvance": false,
@@ -2439,8 +2439,8 @@
 														}
 													},
 													{
-														"title": "Scenario #1",
-														"ask": "Please rate how important the following criteria were when assuming Scenario #1:",
+
+														"ask": "3. Please rate how important the following criteria were when assuming Scenario #1:",
 														"input": {
 															"required": true,
 															"type": "matrix",
@@ -2475,7 +2475,7 @@
 														}
 													},
 														{
-														"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
+														"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
 														"input": {
 														"required": true,
 														"type": "matrix",
@@ -2515,7 +2515,7 @@
 														]
 														}
 														},
-														{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
+														{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
 														"input": {
 														"required": true,
 														"autoadvance": false,
@@ -2589,8 +2589,8 @@
 																					}
 																				},
 																				{
-																					"title": "Scenario #2",
-																					"ask": "Please rate how important the following criteria were when assuming Scenario #2:",
+
+																					"ask": "3. Please rate how important the following criteria were when assuming Scenario #2:",
 																					"input": {
 																						"required": true,
 																						"type": "matrix",
@@ -2631,7 +2631,7 @@
 																					}
 																				},
 																					{
-																					"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
+																					"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
 																					"input": {
 																					"required": true,
 																					"type": "matrix",
@@ -2671,7 +2671,7 @@
 																					]
 																					}
 																					},
-																					{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
+																					{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
 																					"input": {
 																					"required": true,
 																					"autoadvance": false,
@@ -2745,8 +2745,8 @@
 																												}
 																											},
 																											{
-																												"title": "Scenario #1",
-																												"ask": "Please rate how important the following criteria were when assuming Scenario #1:",
+
+																												"ask": "3. Please rate how important the following criteria were when assuming Scenario #1:",
 																												"input": {
 																													"required": true,
 																													"type": "matrix",
@@ -2787,7 +2787,7 @@
 																												}
 																											},
 																												{
-																												"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
+																												"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
 																												"input": {
 																												"required": true,
 																												"type": "matrix",
@@ -2827,7 +2827,7 @@
 																												]
 																												}
 																												},
-																												{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
+																												{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
 																												"input": {
 																												"required": true,
 																												"autoadvance": false,
@@ -2901,8 +2901,8 @@
 																																			}
 																																		},
 																																		{
-																																			"title": "Scenario #2",
-																																			"ask": "Please rate how important the following criteria were when assuming Scenario #2:",
+
+																																			"ask": "3. Please rate how important the following criteria were when assuming Scenario #2:",
 																																			"input": {
 																																				"required": true,
 																																				"type": "matrix",
@@ -2937,7 +2937,7 @@
 																																			}
 																																		},
 																																			{
-																																			"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
+																																			"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
 																																			"input": {
 																																			"required": true,
 																																			"type": "matrix",
@@ -2977,7 +2977,7 @@
 																																			]
 																																			}
 																																			},
-																																			{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
+																																			{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
 																																			"input": {
 																																			"required": true,
 																																			"autoadvance": false,
@@ -3051,8 +3051,8 @@
 													}
 												},
 												{
-													"title": "Scenario #1",
-													"ask": "Please rate how important the following criteria were when assuming Scenario #1:",
+
+													"ask": "3. Please rate how important the following criteria were when assuming Scenario #1:",
 													"input": {
 														"required": true,
 														"type": "matrix",
@@ -3087,7 +3087,7 @@
 													}
 												},
 													{
-													"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
+													"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
 													"input": {
 													"required": true,
 													"type": "matrix",
@@ -3127,7 +3127,7 @@
 													]
 													}
 													},
-													{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
+													{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
 													"input": {
 													"required": true,
 													"autoadvance": false,
@@ -3201,8 +3201,8 @@
 	}
 },
 {
-	"title": "Scenario #2",
-	"ask": "Please rate how important the following criteria were when assuming Scenario #2:",
+
+	"ask": "3. Please rate how important the following criteria were when assuming Scenario #2:",
 	"input": {
 		"required": true,
 		"type": "matrix",
@@ -3243,7 +3243,7 @@
 }
 },
 {
-"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
+"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
 "input": {
 "required": true,
 "type": "matrix",
@@ -3283,7 +3283,7 @@
 ]
 }
 },
-{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
+{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
 "input": {
 "required": true,
 "autoadvance": false,
@@ -3357,8 +3357,8 @@
 }
 },
 {
-"title": "Scenario #1",
-"ask": "Please rate how important the following criteria were when assuming Scenario #1:",
+
+"ask": "3. Please rate how important the following criteria were when assuming Scenario #1:",
 "input": {
 "required": true,
 "type": "matrix",
@@ -3399,7 +3399,7 @@
 }
 },
 {
-"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
+"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #1?",
 "input": {
 "required": true,
 "type": "matrix",
@@ -3439,7 +3439,7 @@
 ]
 }
 },
-{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
+{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #1 ranking.",
 "input": {
 "required": true,
 "autoadvance": false,
@@ -3513,8 +3513,8 @@
 }
 },
 {
-"title": "Scenario #2",
-"ask": "Please rate how important the following criteria were when assuming Scenario #2:",
+
+"ask": "3. Please rate how important the following criteria were when assuming Scenario #2:",
 "input": {
 "required": true,
 "type": "matrix",
@@ -3549,7 +3549,7 @@
 }
 },
 {
-"ask": "How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
+"ask": "4. How helpful did you find the following interactive controls when completing the ranked decision in Scenario #2?",
 "input": {
 "required": true,
 "type": "matrix",
@@ -3589,7 +3589,7 @@
 ]
 }
 },
-{"ask":"Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
+{"ask":"5. Briefly describe your decision-making process, including details on how you used the map to support the Scenario #2 ranking.",
 "input": {
 "required": true,
 "autoadvance": false,
